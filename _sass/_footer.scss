@@ -1,0 +1,96 @@
+footer.site-footer {
+  margin-top: $spacing-unit;
+
+  $footer-text-color: transparentize($text-color, 0.5);
+
+  @include slightly-gradient-background(darken($brand-color, $footer-darken), darken($brand-color-highlight, $footer-darken));
+  border-top-color: $footer-border;
+
+  box-shadow: inset 0 ($spacing-unit / 4) ($spacing-unit / 4) rgba(0,0,0,0.1);
+
+  .footer-col {
+    margin-bottom: 0;
+  }
+
+  .footer-col-wrapper {
+    color: $footer-text-color;
+    text-align: left;
+
+    @include dotted-links($base-font-size * 0.85);
+
+    p {
+      margin: 0 0 ($spacing-unit * 0.4) 0;
+    }
+  }
+
+  // override minima defaults
+  .footer-col-1 {
+    width: -webkit-calc(#{$footer-column-width} - (#{$spacing-unit} / 2));
+    width:         calc(#{$footer-column-width} - (#{$spacing-unit} / 2));
+  }
+
+  .footer-col-2 {
+    width: -webkit-calc(#{100% - $footer-column-width} - (#{$spacing-unit} / 2));
+    width:         calc(#{100% - $footer-column-width} - (#{$spacing-unit} / 2));
+  }
+
+  @include media-query($on-palm) {
+    .footer-col {
+      float: none;
+      width: -webkit-calc(100% - (#{$spacing-unit} / 2));
+      width:         calc(100% - (#{$spacing-unit} / 2));
+    }
+  }
+
+  h2.footer-heading {
+    line-height: $base-font-size * 1.5; // keep all elements in the heading the same size
+
+    a {
+      color: transparentize($text-color, 0.1);
+
+      > svg.svg-icon {
+        vertical-align: middle;
+      }
+
+      &:hover > svg.svg-icon {
+        fill: $text-color;
+      }
+    }
+
+    .rss-link {
+      float: right;
+    }
+  }
+
+  .social-media-list {
+    max-width: 160px;
+    min-width: 140px;
+    display: block;
+    margin-left: auto;
+    margin-bottom: 0;
+
+    @media screen and (max-width: $on-large) {
+      max-width: auto;
+      margin-left: 0;
+    }
+  }
+
+  p.call-to-action {
+    margin-bottom: 0;
+
+    a.button, button, input[type=button], input[type=submit], input[type=reset] {
+      padding: ($spacing-unit / 2 / 2) ($spacing-unit / 1.5 / 2);
+      border-radius: ($spacing-unit / 2 / 2);
+      font-size: 80%;
+      margin-right: ($spacing-unit / 4);
+
+      &:hover {
+        color: darken($cta-text-color, 10%);
+      }
+
+      > svg.svg-icon {
+        fill: $cta-text-color;
+      }
+    }
+  }
+}

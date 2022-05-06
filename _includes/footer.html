@@ -1,0 +1,24 @@
+<footer class="site-footer h-card">
+  <data class="u-url" href="{{ "/" | relative_url }}"></data>
+
+  <div class="wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col footer-col-1">
+        <p><a href="{{ "/" | relative_url }}">{{ site.title | escape }}</a></p>
+
+        <p>{{- site.description | escape -}}</p>
+
+        <p>
+          Copyright &copy;
+          <a href="{{ site.company.url | "/" }}">{{ site.company.name | default: site.title | escape }}</a> 2021 – {{ 'now' | date: "%Y" }}.
+          <em>Adaptory&trade;</em> is a trademark of {{ site.company.name }}.
+        </p>
+      </div>
+
+      <div class="footer-col footer-col-2">
+        {%- include social.html -%}
+      </div>
+    </div>
+  </div>
+
+</footer>

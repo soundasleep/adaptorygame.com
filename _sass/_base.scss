@@ -1,0 +1,97 @@
+html, body {
+  @include slightly-gradient-background($brand-color-highlight, $brand-color);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+/**
+ * Links
+ * built off minima
+ */
+a:not(.button) {
+  text-decoration: none;
+  transition: text-decoration 0.2s, color 0.2s, border 0.2s, background-color 0.1s;
+  color: $default-link-color;
+
+  &:visited {
+    color: $default-link-color;
+  }
+
+  &:active {
+    color: mix($default-link-color, $default-hover-color);
+  }
+
+  &:hover {
+    color: $default-hover-color;
+    text-decoration: underline;
+
+    > svg.svg-icon {
+      fill: $text-color;
+    }
+  }
+
+  > svg.svg-icon {
+    transition: fill 0.2s;
+    padding: 0;
+    margin-right: 3px;
+  }
+}
+
+nav {
+  > ul, > ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+
+    > li {
+      padding: 0;
+      margin: 0;
+      display: inline-block;
+
+      + li::before {
+        content: ' - ';
+        color: $gray;
+      }
+    }
+  }
+}
+
+b, strong {
+  font-weight: 600;
+}
+
+code {
+  background: darken($background-color, 10%);
+  border: darken($background-color, 30%);
+  color: darken($text-color, 10%);
+}
+
+a.button, button, input[type=button], input[type=submit], input[type=reset] {
+  background: $cta-background-color;
+  color: $cta-text-color;
+  border: 0;
+  padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+  border-radius: ($spacing-unit / 2);
+  display: inline-block;
+  margin: 0;
+
+  &:hover {
+    color: darken($cta-text-color, 10%);
+  }
+}
+
+blockquote {
+  color: mix($text-color, $background-color, 50%);
+}
+
+table tr:nth-child(2n), table th {
+  background-color: rgba(0,0,0,0.2);
+}
+
+h1, h2, h3 {
+  i, em {
+    color: $hero-color;
+  }
+}

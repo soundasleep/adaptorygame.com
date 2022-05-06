@@ -1,0 +1,101 @@
+main.page-content {
+  @include slightly-gradient-background($brand-color, $brand-color-highlight);
+
+  padding: ($spacing-unit * 1.5) 0 $spacing-unit;
+
+  @media screen and (max-width: $tablet) {
+    padding: ($spacing-unit * 0.5) 0;
+  }
+
+  h1, h2, h3, h4, h5, h6, p, blockquote, pre, ul, ol, dl, figure, .highlight {
+    margin-bottom: $spacing-unit * 0.75;
+  }
+
+  pre, code {
+    color: #222;
+    background: #eef;
+    font-family: 'Consolas', monospace;
+
+    span {
+      color: #222;
+      background: #eef;
+    }
+  }
+
+  nav.actions {
+    float: right;
+    font-size: $base-font-size * 0.8;
+
+    ul, li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+  }
+
+  .post-content {
+    @include dotted-links($base-font-size);
+
+    h1, h2, h3 {
+      a:not(.button) {
+        text-decoration: none;
+        color: $text-color;
+      }
+    }
+
+    nav.inline {
+      margin: 0 auto;
+      text-align: center;
+    }
+
+    img, figure {
+      max-width: 500px;
+      text-align: center;
+      margin: auto;
+
+      iframe {
+        max-width: 100%;
+      }
+
+      @media screen and (max-width: 500px) {
+        max-width: 100%;
+      }
+    }
+
+    figure {
+      margin-top: $spacing-unit;
+      margin-bottom: $spacing-unit;
+      font-style: italic;
+
+      figcaption {
+        margin-top: $spacing-unit * 0.25;
+      }
+    }
+  }
+}
+
+nav.call-to-action {
+  text-align: center;
+  margin: $spacing-unit 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+}
+
+article, figure.image {
+  img {
+    display: block;
+    box-shadow: 1px 1px 5px rgba(0,0,0,0.25);
+    border-radius: ($spacing-unit / 2);
+
+    @media screen and (max-width: 500px) {
+      max-width: 100%;
+    }
+  }
+}
+
+div#disqus_thread {
+  margin-top: $spacing-unit * 2;
+  border-top: 2px solid rgba(255, 255, 255, .2);
+}
