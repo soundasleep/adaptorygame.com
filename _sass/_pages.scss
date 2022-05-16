@@ -19,6 +19,13 @@ body.layout-blank {
 
     img {
       max-width: 400px;
+      position: relative;
+      top: 0px;
+      transition: top 0.1s;
+
+      &:hover {
+        top: -2px;
+      }
     }
 
     figure.wide {
@@ -181,8 +188,15 @@ body.layout-blank {
         max-width: $home-page-width;
         min-height: 600px;
 
-        h3 {
+        h3, h4 {
           text-align: center;
+        }
+
+        h4 {
+          margin-bottom: $spacing-unit * 0.2;
+          color: transparentize($text-color, 0.25);
+          font-size: $base-font-size;
+          font-style: italic;
         }
 
         p.call-to-action {
