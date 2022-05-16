@@ -102,3 +102,8 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   //       mix($background, $highlight, 32%) 100%);
   // }
 }
+
+@mixin slight-border($side) {
+    border-#{$side}: 1px solid lighten($brand-color, 10%);
+    padding-#{$side}: $spacing-unit;
+}

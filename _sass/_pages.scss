@@ -54,6 +54,36 @@ body.layout-blank {
 
   $home-page-width: 1200px;
 
+  $article-feed-width: 70%;
+  $article-spacing: $spacing-unit;
+
+  div.wrap-content-and-feed {
+    @include slight-border("top");
+
+    > div.content {
+      width: -webkit-calc(#{$article-feed-width} - (#{$article-spacing} / 2));
+      width:         calc(#{$article-feed-width} - (#{$article-spacing} / 2));
+
+      float: left;
+      margin-right: $spacing-unit;
+    }
+
+    > div.feed {
+      width: -webkit-calc(#{100% - $article-feed-width} - (#{$article-spacing} / 2));
+      width:         calc(#{100% - $article-feed-width} - (#{$article-spacing} / 2));
+
+      float: left;
+    }
+
+    &::after {
+      content: '';
+      clear: both;
+      width: 5px;
+      height: 5px;
+      display: block;
+    }
+  }
+
   div.wrap-article {
     width: 100%;
     max-width: $home-page-width;
@@ -221,8 +251,7 @@ body.layout-blank {
 body.page-index {
   figure.video {
     max-width: 100%;
-    padding-top: $spacing-unit;
-    padding-bottom: $spacing-unit;
+    margin-top: 0;
 
     figcaption {
       max-width: 600px;
@@ -231,8 +260,7 @@ body.page-index {
       line-height: 150%;
     }
 
-    border-top: 1px solid lighten($brand-color, 10%);
-    border-bottom: 1px solid lighten($brand-color, 10%);
+    @include slight-border("bottom");
   }
 }
 
