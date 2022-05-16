@@ -23,6 +23,10 @@ body.layout-blank {
       top: 0px;
       transition: top 0.1s;
 
+      @media screen and (max-width: $tablet) {
+        max-width: 400px * ($tablet-scale * 1.25);
+      }
+
       &:hover {
         top: -2px;
       }
@@ -66,6 +70,14 @@ body.layout-blank {
 
       float: left;
       margin-right: $spacing-unit;
+
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+        margin-right: 0;
+        float: none;
+
+        @include slight-border("bottom");
+      }
     }
 
     > div.feed {
@@ -73,6 +85,17 @@ body.layout-blank {
       width:         calc(#{100% - $article-feed-width} - (#{$article-spacing} / 2));
 
       float: left;
+
+      @media screen and (max-width: $tablet) {
+        width: 100%;
+        float: none;
+
+        @include slight-border("top");
+        border-top: 0;
+
+        // extra spacing so mobile users can easily scroll past it
+        padding: $spacing-unit;
+      }
     }
 
     &::after {
@@ -93,7 +116,10 @@ body.layout-blank {
     text-align: left;
 
     @media screen and (max-width: $tablet) {
-      padding: 0 $spacing-unit * 0.5;
+      padding: 0 $spacing-unit * $tablet-scale;
+    }
+    @media screen and (max-width: $on-palm) {
+      padding: 0 0;
     }
 
     article.post {
@@ -104,16 +130,6 @@ body.layout-blank {
       $link-darken: 5%;
 
       nav.main {
-        width: 75%;
-        @media screen and (max-width: $tablet) {
-          width: 65%;
-        }
-        @media screen and (max-width: $on-palm) {
-          width: 85%;
-          margin-left: 0;
-          margin-right: 0;
-        }
-
         padding: 0;
         border: 0; // border: thin solid $light-border;
         margin-left: $spacing-unit;
@@ -122,10 +138,16 @@ body.layout-blank {
         background: darken($brand-color, $link-darken);
         border: thin solid $brand-color;
 
-        @media screen and (max-width: $home-page-width) {
+        width: 75%;
+        @media screen and (max-width: $tablet) {
+          width: 65%;
+        }
+        @media screen and (max-width: $on-palm) {
           max-width: 100%;
-          margin-left: $spacing-unit;
-          margin-right: $spacing-unit;
+          width: 95%;
+          font-size: $base-font-size * 0.9;
+          margin-left: $spacing-unit * 0.2;
+          margin-right: $spacing-unit * 0.2;
         }
 
         $nav-links-count: 4;
@@ -141,6 +163,10 @@ body.layout-blank {
 
             a {
               padding: ($nav-spacing-size - 4px) 0;
+              @media screen and (max-width: $home-page-width) {
+                padding: ($nav-spacing-size - 4px) * $tablet-scale 0;
+              }
+
               display: inline-block;
               color: mix($default-link-color, $text-color);
               width: 100%;
@@ -218,6 +244,10 @@ body.layout-blank {
         max-width: $home-page-width;
         min-height: 600px;
 
+        @media screen and (max-width: $on-palm) {
+          padding: $spacing-unit * $tablet-scale;
+        }
+
         h3, h4 {
           text-align: center;
         }
@@ -225,8 +255,14 @@ body.layout-blank {
         h4 {
           margin-bottom: $spacing-unit * 0.2;
           color: transparentize($text-color, 0.25);
-          font-size: $base-font-size;
           font-style: italic;
+          @include font-size(1.0);
+
+          @media screen and (max-width: $on-palm) {
+            &:last-child {
+              padding-bottom: $spacing-unit * 0.2;
+            }
+          }
         }
 
         p.call-to-action {

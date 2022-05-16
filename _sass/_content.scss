@@ -11,6 +11,22 @@ main.page-content {
     margin-bottom: $spacing-unit * 0.75;
   }
 
+  h1 {
+    @include font-size(1.75);
+  }
+
+  h2 {
+    @include font-size(1.5);
+  }
+
+  h3 {
+    @include font-size(1.25);
+  }
+
+  h4 {
+    @include font-size(1.125);
+  }
+
   pre, code {
     color: #222;
     background: #eef;

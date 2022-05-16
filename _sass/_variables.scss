@@ -53,7 +53,7 @@ $footer-darken: 5%;
 $header-border: mix($grey-color-dark, $black);
 $footer-border: mix($grey-color-dark, $black);
 
-$footer-column-width: 75%;
+$footer-column-width: 80%;
 
 // Width of the content area
 $content-width:    900px;
@@ -71,6 +71,8 @@ $link-color: $brand-color;
 $highlight: $brand-color;
 $mobile: $on-medium;
 $tablet: $on-large;
+
+$tablet-scale: 0.5;
 
 // New variables
 $font-weight-normal: $base-font-weight;

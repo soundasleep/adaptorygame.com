@@ -73,6 +73,10 @@ a.button, button, input[type=button], input[type=submit], input[type=reset] {
   color: $cta-text-color;
   border: 0;
   padding: ($spacing-unit / 2) ($spacing-unit / 1.5);
+  @media screen and (max-width: $tablet) {
+    $button-tablet-scale: $tablet-scale * 1.5;
+    padding: ($spacing-unit / 2) * $button-tablet-scale ($spacing-unit / 1.5) * $button-tablet-scale;
+  }
   border-radius: ($spacing-unit / 2);
   display: inline-block;
   margin: 0;
