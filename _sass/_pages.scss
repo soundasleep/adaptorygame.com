@@ -248,23 +248,6 @@ body.layout-blank {
           padding: $spacing-unit * $tablet-scale;
         }
 
-        h3, h4 {
-          text-align: center;
-        }
-
-        h4 {
-          margin-bottom: $spacing-unit * 0.2;
-          color: transparentize($text-color, 0.25);
-          font-style: italic;
-          @include font-size(1.0);
-
-          @media screen and (max-width: $on-palm) {
-            &:last-child {
-              padding-bottom: $spacing-unit * 0.2;
-            }
-          }
-        }
-
         p.call-to-action {
           text-align: center;
           margin-top: -$spacing-unit * 0.5;
@@ -300,11 +283,26 @@ body.page-index {
   }
 }
 
-body.page-media {
-  h1, h2, h3 {
+body.page-index, body.page-media {
+  h1, h2, h3, h4 {
     text-align: center;
   }
 
+  h4 {
+    margin-bottom: $spacing-unit * 0.2;
+    color: transparentize($text-color, 0.25);
+    font-style: italic;
+    @include font-size(1.0);
+
+    @media screen and (max-width: $on-palm) {
+      &:last-child {
+        padding-bottom: $spacing-unit * 0.2;
+      }
+    }
+  }
+}
+
+body.page-media {
   figure + h1, figure + h2, figure + h3 {
     border-top: 1px solid lighten($brand-color, 10%);
     padding-top: $spacing-unit;

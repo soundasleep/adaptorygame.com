@@ -13,10 +13,12 @@ main.page-content {
 
   h1 {
     @include font-size(1.75);
+    font-weight: bold;
   }
 
   h2 {
     @include font-size(1.5);
+    font-weight: bold;
   }
 
   h3 {

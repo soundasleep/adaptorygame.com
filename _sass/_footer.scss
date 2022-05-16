@@ -83,4 +83,22 @@ footer.site-footer {
       padding-top: $spacing-unit * 0.33;
     }
   }
+
+  ul.mini-links {
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    font-size: 80%;
+    list-style: none;
+
+    @include slight-border("top");
+    padding-top: $spacing-unit * 0.2;
+    display: block;
+
+    > li {
+      display: inline-block;
+      margin: 0 $spacing-unit * 0.33 0 0;
+      padding: 0;
+    }
+  }
 }

@@ -1,5 +1,6 @@
 ---
 layout: page
+title: Media
 ---
 
 ## In-game screenshots <small>(May 2022)</small>
