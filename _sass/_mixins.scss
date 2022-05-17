@@ -116,3 +116,8 @@ $dotted-links-height-ratio: (1.25 / 1.5);
       padding-#{$side}: $spacing-unit * $tablet-scale;
     }
 }
+
+@mixin above-blurred-gradient-background {
+  position: relative;
+  z-index: 1;
+}

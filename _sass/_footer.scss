@@ -1,4 +1,6 @@
 footer.site-footer {
+  @include above-blurred-gradient-background;
+
   margin-top: $spacing-unit;
 
   $footer-text-color: transparentize($text-color, 0.5);

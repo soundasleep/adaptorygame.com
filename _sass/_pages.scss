@@ -76,7 +76,12 @@ body.layout-blank {
         margin-right: 0;
         float: none;
 
-        @include slight-border("bottom");
+        > figure.video {
+          margin-bottom: 0;
+        }
+
+        // add a border between page contents and tweet feed
+        //@include slight-border("bottom");
       }
     }
 
@@ -90,7 +95,6 @@ body.layout-blank {
         width: 100%;
         float: none;
 
-        @include slight-border("top");
         border-top: 0;
 
         // extra spacing so mobile users can easily scroll past it
@@ -130,6 +134,8 @@ body.layout-blank {
       $link-darken: 5%;
 
       nav.main {
+        @include above-blurred-gradient-background;
+
         padding: 0;
         border: 0; // border: thin solid $light-border;
         margin-left: $spacing-unit;
@@ -189,6 +195,8 @@ body.layout-blank {
       }
 
       nav.socials {
+        @include above-blurred-gradient-background;
+
         position: absolute;
         right: $spacing-unit * 0.5;
         top: $spacing-unit * 0.33;
