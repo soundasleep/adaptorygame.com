@@ -21,7 +21,7 @@
 title: Adaptory – a base-building survival/simulation game
 email: hello@adaptorygame.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Coming to Windows, Mac, and Linux in 2023.
+  Coming to Windows, Mac, and Linux in 2023
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://adaptorygame.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: stormcloakgames
