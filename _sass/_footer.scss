@@ -92,6 +92,7 @@ footer.site-footer {
     display: inline-block;
     font-size: 80%;
     list-style: none;
+    margin-right: $spacing-unit * 1;
 
     @include slight-border("top");
     padding-top: $spacing-unit * 0.2;
