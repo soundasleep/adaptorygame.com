@@ -316,3 +316,24 @@ body.page-media {
     padding-top: $spacing-unit;
   }
 }
+
+// we use IDs because they're stronger selectors
+body#page_feedback {
+  .post-content-wrapper {
+    max-width: 800px;
+    text-align: center;
+    margin-top: 60px;
+    margin-left: auto;
+    margin-right: auto;
+
+    ul, li {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    li + li {
+      margin-top: $spacing-unit * 0.5;
+    }
+  }
+}

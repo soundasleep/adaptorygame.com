@@ -5,11 +5,13 @@
 
   {% if page.name %}
     {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
   {% else %}
     {%- assign body_class = "page-" | append: page.id | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
   {% endif %}
 
-  <body class="{{ body_class }} layout-blank">
+  <body class="{{ body_class }} layout-blank" id="{{ body_id }}">
 
     <main class="page-content" aria-label="Content">
       {{ content }}
