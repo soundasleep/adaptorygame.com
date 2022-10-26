@@ -61,11 +61,12 @@ main.page-content {
     bottom: 0%;
 
     $alpha-amount: 0.1;
+    $darken-amount: 10%;
 
     background-image: linear-gradient(110deg,
-      transparentize(darken($deep-orange, 45%), $alpha-amount),
-      transparentize(darken($green, 40%), $alpha-amount) 64%,
-      transparentize(darken($indigo, 20%), $alpha-amount));
+      transparentize(darken($deep-orange, $darken-amount * 2.25), $alpha-amount),
+      transparentize(darken($green, $darken-amount * 2), $alpha-amount) 64%,
+      transparentize(darken($indigo, $darken-amount), $alpha-amount));
   }
 
   .post-content {

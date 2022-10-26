@@ -36,7 +36,7 @@ $hero-color:       #F1DA92;
 
 $background-color: $brand-color;
 $text-color:       #ddd;
-$default-link-color: mix($text-color, $brand-color, 60%);
+$default-link-color: white;
 $default-hover-color: $text-color;
 
 $grey-color:       #828282;
@@ -52,6 +52,7 @@ $header-darken: 5%;
 $footer-darken: 5%;
 $header-border: mix($grey-color-dark, $black);
 $footer-border: mix($grey-color-dark, $black);
+$footer-link-color: mix($text-color, $brand-color, 60%);
 
 $footer-column-width: 80%;
 
@@ -77,3 +78,4 @@ $tablet-scale: 0.5;
 // New variables
 $font-weight-normal: $base-font-weight;
 $font-weight-bold: 600;
+$component-border: 1.6px solid $white;

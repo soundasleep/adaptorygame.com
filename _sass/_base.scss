@@ -36,6 +36,8 @@ a:not(.button) {
     transition: fill 0.2s;
     padding: 0;
     margin-right: 3px;
+    fill: mix($text-color, #828282);
+    //fill: $default-link-color;
   }
 }
 

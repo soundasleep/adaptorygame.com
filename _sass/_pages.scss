@@ -13,12 +13,13 @@ body.layout-blank {
   header.logo, main.page-content {
     width: 100%;
     margin: 0;
+    margin-top: $spacing-unit * 0.667;
     padding: 0;
     text-align: center;
     background: none;
 
     img {
-      max-width: 400px;
+      max-width: 450px;
       position: relative;
       top: 0px;
       transition: top 0.1s;
@@ -115,7 +116,7 @@ body.layout-blank {
     width: 100%;
     max-width: $home-page-width;
     margin: 0 auto;
-    margin-top: $spacing-unit;
+    margin-top: $spacing-unit * 0.75;
     padding: 0 $spacing-unit;
     text-align: left;
 
@@ -142,7 +143,8 @@ body.layout-blank {
         box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
         border-radius: ($nav-spacing-size * $derounding) ($nav-spacing-size * $derounding) 0 0;
         background: darken($brand-color, $link-darken);
-        border: thin solid $brand-color;
+        border: $component-border;
+        border-bottom: 0;
 
         width: 75%;
         @media screen and (max-width: $tablet) {
@@ -176,6 +178,8 @@ body.layout-blank {
               display: inline-block;
               color: mix($default-link-color, $text-color);
               width: 100%;
+              // so the background color change doesn't touch the 2px white border
+              border-radius: ($nav-spacing-size * $derounding) ($nav-spacing-size * $derounding) 0 0;
 
               &:hover {
                 background: lighten($brand-color, $link-darken);
@@ -184,7 +188,8 @@ body.layout-blank {
             }
 
             + li {
-              border-left: thin solid lighten($brand-color, $link-darken);
+              border-left: $component-border;
+              //border-left: thin solid lighten($brand-color, $link-darken);
             }
 
             + li:before {
@@ -245,7 +250,7 @@ body.layout-blank {
       div.post-content {
         margin: 0 auto;
         padding: $spacing-unit;
-        border: 0; // border: thin solid $light-border;
+        border: $component-border;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
         border-radius: $spacing-unit * $derounding;
         background: $brand-color;

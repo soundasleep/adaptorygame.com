@@ -18,7 +18,7 @@ footer.site-footer {
     color: $footer-text-color;
     text-align: left;
 
-    @include dotted-links($base-font-size * 0.85);
+    @include dotted-links($base-font-size * 0.85, $footer-link-color);
 
     p {
       margin: 0 0 ($spacing-unit * 0.4) 0;
@@ -41,26 +41,6 @@ footer.site-footer {
       float: none;
       width: -webkit-calc(100% - (#{$spacing-unit} / 2));
       width:         calc(100% - (#{$spacing-unit} / 2));
-    }
-  }
-
-  h2.footer-heading {
-    line-height: $base-font-size * 1.5; // keep all elements in the heading the same size
-
-    a {
-      color: transparentize($text-color, 0.1);
-
-      > svg.svg-icon {
-        vertical-align: middle;
-      }
-
-      &:hover > svg.svg-icon {
-        fill: $text-color;
-      }
-    }
-
-    .rss-link {
-      float: right;
     }
   }
 
