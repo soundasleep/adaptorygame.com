@@ -254,7 +254,8 @@ body.layout-blank {
         box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
         border-radius: $spacing-unit * $derounding;
         //background: transparentize($brand-color, 0.9);
-        background: transparentize($white, 0.9);
+        //background: transparentize($white, 0.9);
+        background: $brand-color; // having a transparent background looks cool, but is very to scroll on Android
         max-width: $home-page-width;
         min-height: 600px;
 
