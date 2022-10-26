@@ -253,9 +253,8 @@ body.layout-blank {
         border: $component-border;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
         border-radius: $spacing-unit * $derounding;
-        background: transparentize($brand-color, 0.9);
+        //background: transparentize($brand-color, 0.9);
         background: transparentize($white, 0.9);
-        //transparent;
         max-width: $home-page-width;
         min-height: 600px;
 

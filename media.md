@@ -3,7 +3,7 @@ layout: page
 title: Media
 ---
 
-## In-game screenshots <small>(May 2022)</small>
+## In-game screenshots <small>(October 2022)</small>
 
 <figure class="image wide">
   <a href="/assets/screenshots/pawns-and-ice.png"><img src="/assets/screenshots/pawns-and-ice.png"></a>
@@ -25,7 +25,7 @@ title: Media
   <a href="/assets/screenshots/pawns-underground.png"><img src="/assets/screenshots/pawns-underground.png"></a>
 
   <figcaption>
-    Light levels influence pawns behaviour, happiness, and nearby wildlife
+    Dig deep to discover a rich collection of materials and resources
   </figcaption>
 </figure>
 
