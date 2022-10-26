@@ -23,6 +23,10 @@ footer.site-footer {
     p {
       margin: 0 0 ($spacing-unit * 0.4) 0;
     }
+
+    i, em {
+      color: $footer-text-color;
+    }
   }
 
   // override minima defaults

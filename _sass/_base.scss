@@ -96,8 +96,6 @@ table tr:nth-child(2n), table th {
   background-color: rgba(0,0,0,0.2);
 }
 
-h1, h2, h3 {
-  i, em {
-    color: $hero-color;
-  }
+i, em {
+  color: $hero-color;
 }
