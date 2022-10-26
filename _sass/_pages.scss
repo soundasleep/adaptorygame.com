@@ -63,7 +63,7 @@ body.layout-blank {
   $article-spacing: $spacing-unit;
 
   div.wrap-content-and-feed {
-    @include slight-border("top");
+    @include slight-border("top", transparentize($white, 0.5));
 
     > div.content {
       width: -webkit-calc(#{$article-feed-width} - (#{$article-spacing} / 2));
@@ -253,7 +253,9 @@ body.layout-blank {
         border: $component-border;
         box-shadow: 2px 2px 5px rgba(0,0,0,0.25);
         border-radius: $spacing-unit * $derounding;
-        background: $brand-color;
+        background: transparentize($brand-color, 0.9);
+        background: transparentize($white, 0.9);
+        //transparent;
         max-width: $home-page-width;
         min-height: 600px;
 

@@ -52,13 +52,16 @@ main.page-content {
   }
 
   .gradient-blur-wrapper {
-    border-radius: $spacing-unit;
+    $blur-amount: $spacing-unit * 0.5;
+
+    border-radius: $blur-amount;
     filter: blur($spacing-unit);
     position: absolute;
     top: 0%;
     left: 0%;
     right: 0%;
     bottom: 0%;
+    margin: -$blur-amount;
 
     $alpha-amount: 0.1;
     $darken-amount: 10%;
