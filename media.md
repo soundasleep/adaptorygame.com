@@ -6,7 +6,7 @@ title: Media
 ## In-game screenshots <small>(October 2022)</small>
 
 <figure class="image wide">
-  <a href="/assets/screenshots/pawns-and-ice.png"><img src="/assets/screenshots/pawns-and-ice.png"></a>
+  <a href="/assets/screenshots/pawns-and-ice.png"><img src="/assets/screenshots/pawns-and-ice.jpg"></a>
 
   <figcaption>
     Give instructions to your pawns to build up a thriving base, using the materials around you
@@ -14,7 +14,7 @@ title: Media
 </figure>
 
 <figure class="image wide">
-  <a href="/assets/screenshots/water-falling.png"><img src="/assets/screenshots/water-falling.png"></a>
+  <a href="/assets/screenshots/water-falling.png"><img src="/assets/screenshots/water-falling.jpg"></a>
 
   <figcaption>
     Play with a deep physics simulation that includes gravity, temperature, density, viscosity, phase transitions, and more than fourty different materials
@@ -22,7 +22,7 @@ title: Media
 </figure>
 
 <figure class="image wide">
-  <a href="/assets/screenshots/pawns-underground.png"><img src="/assets/screenshots/pawns-underground.png"></a>
+  <a href="/assets/screenshots/pawns-underground.png"><img src="/assets/screenshots/pawns-underground.jpg"></a>
 
   <figcaption>
     Dig deep to discover a rich collection of materials and resources
