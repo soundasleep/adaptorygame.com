@@ -171,7 +171,7 @@ body.layout-blank {
 
             a {
               padding: ($nav-spacing-size - 4px) 0;
-              @media screen and (max-width: $home-page-width) {
+              @media screen and (max-width: $tablet) {
                 padding: ($nav-spacing-size - 4px) * $tablet-scale 0;
               }
 
@@ -205,6 +205,10 @@ body.layout-blank {
         position: absolute;
         right: $spacing-unit * 0.5;
         top: $spacing-unit * 0.33;
+        @media screen and (max-width: $tablet) {
+          top: $spacing-unit * 0.2;
+        }
+
         text-align: right;
         line-height: $spacing-unit;
 
@@ -212,12 +216,17 @@ body.layout-blank {
           display: none;
         }
 
+
         ul {
           margin: 0;
 
           li {
             margin: 0;
             padding: 0 5px;
+
+            @media screen and (max-width: $tablet) {
+              padding: 0 3px;
+            }
 
             a {
               span.username {
@@ -236,6 +245,21 @@ body.layout-blank {
                   position: relative;
                   top: -4px;
                   left: -4px;
+                }
+
+                @media screen and (max-width: $tablet) {
+                  $smaller-scale: 0.8;
+
+                  width: 16px * $scale * $smaller-scale;
+                  height: 16px * $scale * $smaller-scale;
+                  transform: scale($scale * $smaller-scale);
+
+                  &.reddit {
+                    transform: scale(1.0);
+                    position: relative;
+                    top: -1px;
+                    left: -1px;
+                  }
                 }
               }
             }
@@ -282,7 +306,7 @@ body.layout-blank {
   }
 }
 
-body.page-index {
+body#page_index {
   figure.video {
     max-width: 100%;
     margin-top: 0;
@@ -298,7 +322,7 @@ body.page-index {
   }
 }
 
-body.page-index, body.page-media {
+body#page_index, body#page_media {
   h1, h2, h3, h4 {
     text-align: center;
   }
@@ -317,7 +341,7 @@ body.page-index, body.page-media {
   }
 }
 
-body.page-media {
+body#page_media {
   figure + h1, figure + h2, figure + h3 {
     border-top: 1px solid lighten($brand-color, 10%);
     padding-top: $spacing-unit;
