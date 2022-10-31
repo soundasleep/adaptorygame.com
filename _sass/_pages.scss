@@ -18,6 +18,10 @@ body.layout-blank {
     text-align: center;
     background: none;
 
+    // render the logo _above_ the box blurred gradient
+    position: relative;
+    z-index: 1;
+
     img {
       max-width: 450px;
       position: relative;
@@ -320,6 +324,22 @@ body#page_index {
 
     @include slight-border("bottom");
   }
+
+  .itch-embed {
+    h2 {
+      font-size: $base-font-size * 1.25;
+    }
+
+    iframe {
+      // allow the iframe to resize on mobile
+      max-width: 100%;
+    }
+
+    @include slight-border("bottom");
+    text-align: center;
+    margin-bottom: $spacing-unit;
+  }
+
 }
 
 body#page_index, body#page_media {
