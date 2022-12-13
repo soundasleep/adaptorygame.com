@@ -9,6 +9,11 @@ body.layout-blank {
   background-position: center;
   background-size: cover;
   line-height: 150%;
+  font-size: 100%;
+
+  @media screen and (max-width: $tablet) {
+    font-size: 90%;
+  }
 
   header.logo, main.page-content {
     width: 100%;
@@ -150,9 +155,11 @@ body.layout-blank {
         border: $component-border;
         border-bottom: 0;
 
+        font-size: 100%;
         width: 75%;
         @media screen and (max-width: $tablet) {
           width: 65%;
+          font-size: 90%;
         }
         @media screen and (max-width: $on-palm) {
           max-width: 100%;
@@ -289,6 +296,11 @@ body.layout-blank {
 
         @media screen and (max-width: $on-palm) {
           padding: $spacing-unit * $tablet-scale;
+
+          // take up the full width
+          border-radius: 0;
+          border-left: 0;
+          border-right: 0;
         }
 
         p.call-to-action {

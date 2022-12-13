@@ -40,7 +40,7 @@ footer.site-footer {
     width:         calc(#{100% - $footer-column-width} - (#{$spacing-unit} / 2));
   }
 
-  @include media-query($on-palm) {
+  @include media-query($on-large) {
     .footer-col {
       float: none;
       width: -webkit-calc(100% - (#{$spacing-unit} / 2));

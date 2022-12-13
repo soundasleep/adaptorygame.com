@@ -8,10 +8,9 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   font-size: $base-font-size * $ratio;
   line-height: $base-font-size * $ratio * $base-line-height;
 
-  // reset
-  @media screen and (min-width: $on-large) {
-    font-size: $base-font-size * $ratio;
-    line-height: $base-font-size * $ratio * $base-line-height;
+  @media screen and (max-width: $tablet) {
+    font-size: $base-font-size * $ratio * 0.9;
+    line-height: $base-font-size * $ratio * $base-line-height * 0.9;
   }
 }
 
