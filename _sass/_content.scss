@@ -141,3 +141,42 @@ div#disqus_thread {
   margin-top: $spacing-unit * 2;
   border-top: 2px solid rgba(255, 255, 255, .2);
 }
+
+.steam-button {
+  @include homepage-call-to-action-button();
+
+  background: rgb(2,0,36);
+  background: linear-gradient(139deg, rgba(2,0,36,1) 51%, rgba(42,71,94,1) 150%);
+  text-transform: uppercase;
+  color: white !important;
+
+  text-decoration-color: transparent !important;
+
+  span {
+    text-decoration: underline;
+    text-decoration-color: transparent;
+    transition: text-decoration-color 0.2s;
+  }
+
+  &:hover {
+    background: rgb(2,0,36);
+    background: linear-gradient(139deg, rgba(2,0,36,1) 51%, rgba(42,71,94,1) 100%);
+    transition: box-shadow 0.2s, background 0.2s;
+
+    span {
+      text-decoration-color: white;
+      transition: text-decoration-color 0.2s;
+    }
+  }
+
+  > img {
+    position: absolute;
+    display: inline-block !important;
+    width: $spacing-unit * 1;
+    height: $spacing-unit * 1;
+    margin: -5px !important;
+    padding: 0 !important;
+    margin-right: $spacing-unit * 0.25 !important;
+    vertical-align: -20%;
+  }
+}

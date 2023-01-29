@@ -120,3 +120,22 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   position: relative;
   z-index: 1;
 }
+
+@mixin homepage-call-to-action-button {
+  display: inline-block;
+  padding: $spacing-unit * 0.5 $spacing-unit * 0.75;
+  border: 1px black;
+  border-radius: $spacing-unit * 0.5;
+  box-shadow: 0px 0px 4px transparent;
+  font-style: normal;
+  min-height: $spacing-unit * 1.5;
+  margin-left: $spacing-unit * 0.25;
+  margin-right: $spacing-unit * 0.25;
+
+  transition: box-shadow 0.2s, background 0.2s;
+
+  &:hover {
+    box-shadow: 0px 0px 6px black;
+    transition: box-shadow 0.2s, background 0.2s;
+  }
+}

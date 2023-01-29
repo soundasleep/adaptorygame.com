@@ -251,7 +251,7 @@ body.layout-blank {
                 height: 16px * $scale;
                 transform: scale($scale);
 
-                &.reddit {
+                &.reddit, &.steam {
                   transform: scale(1.0);
                   position: relative;
                   top: -4px;
@@ -265,7 +265,7 @@ body.layout-blank {
                   height: 16px * $scale * $smaller-scale;
                   transform: scale($scale * $smaller-scale);
 
-                  &.reddit {
+                  &.reddit, &.steam {
                     transform: scale(1.0);
                     position: relative;
                     top: -1px;
@@ -308,9 +308,7 @@ body.layout-blank {
           margin-top: -$spacing-unit * 0.5;
 
           a {
-            margin-top: $spacing-unit * 0.5;
-            margin-left: $spacing-unit * 0.33;
-            margin-right: $spacing-unit * 0.33;
+            @include homepage-call-to-action-button();
           }
 
           a > svg.svg-icon {
