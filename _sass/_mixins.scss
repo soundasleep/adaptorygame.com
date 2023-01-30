@@ -129,8 +129,7 @@ $dotted-links-height-ratio: (1.25 / 1.5);
   box-shadow: 0px 0px 4px transparent;
   font-style: normal;
   min-height: $spacing-unit * 1.5;
-  margin-left: $spacing-unit * 0.25;
-  margin-right: $spacing-unit * 0.25;
+  margin: $spacing-unit * 0.25;
 
   transition: box-shadow 0.2s, background 0.2s;
 

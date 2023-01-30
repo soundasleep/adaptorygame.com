@@ -350,6 +350,9 @@ body#page_index {
     margin-bottom: $spacing-unit;
   }
 
+  h3 + h3 {
+    margin-bottom: $spacing-unit * 1;
+  }
 }
 
 body#page_index, body#page_media {
