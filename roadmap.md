@@ -3,7 +3,7 @@ layout: page
 title: Roadmap
 ---
 
-## Gameplay roadmap
+## Gameplay roadmap (updated Jan 2023)
 
 _Adaptory_ is being designed as a base-builder with dozens of individual systems, all interacting together in novel and emergent ways.
 The plan is to regularly release updates showing off each new system,
@@ -18,6 +18,7 @@ Some systems might not be fun, or we might get new ideas!
 - Light
 - [Pawns](https://stormcloak.games/2022/09/21/hair-and-release-date)
 - [Multithreading](https://stormcloak.games/2022/10/03/multithreaded-simulations)
+- [Electricity](https://stormcloak.games/2023/01/30/alpha-2)
 
 ### <span style="color:#E7CA43;">Up next / in progress</span>
 
@@ -25,13 +26,12 @@ Some systems might not be fun, or we might get new ideas!
 - Diary entries
 - Plants
 - Food production
-- Electricity
+- Random events
 
 ### <span style="color:#E79843;">Planned</span>
 
 - Pawn traits
 - Pawn skills
-- Random events
 - Heating and refrigeration
 - Refinement
 - Pipes and vents
