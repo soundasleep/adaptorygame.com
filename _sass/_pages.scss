@@ -411,3 +411,17 @@ body#page_roadmap {
     }
   }
 }
+
+body#page_feedback {
+  .post-content {
+    ul.social-media-list {
+      max-width: 50%;
+      background: lighten($brand-color, 5%);
+      box-shadow: inset 0 ($spacing-unit / 4) ($spacing-unit / 4) rgba(0,0,0,0.1);
+
+      border-radius: $spacing-unit * 0.5;
+      margin: $spacing-unit * 0.75 auto;
+      padding: $spacing-unit * 0.5;
+    }
+  }
+}
