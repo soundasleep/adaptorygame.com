@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head.html -%}
+
+  {% if page.name %}
+    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
+  {% else %}
+    {%- assign body_class = "page-" | append: page.id | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
+  {% endif %}
+
+  <body class="{{ body_class }} layout-white" id="{{ body_id }}">
+    <div id="top-banner"></div>
+
+    <main class="page-content" aria-label="Content">
+      {{ content }}
+    </main>
+  </body>
+
+</html>

@@ -99,3 +99,15 @@ table tr:nth-child(2n), table th {
 i, em {
   color: $hero-color;
 }
+
+.columns {
+  width: 100%;
+  > .column {
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  &.columns-4 {
+    > .column { width: 24%; }
+  }
+}
