@@ -1,5 +1,5 @@
 ---
-layout: white
+layout: press
 
 # NOTE:
 # jekyll doesn't support including markdown yet. Ugh.
@@ -7,7 +7,12 @@ layout: white
 # https://github.com/jekyll/jekyll/issues/1303
 ---
 
-# Adaptory – press kit
+# [Adaptory](/) – press kit
+
+<section class="toc">
+  {% capture temp %}{% include press/toc.md %}{% endcapture %}
+  {{ temp | markdownify }}
+</section>
 
 <section class="facts">
   {% capture temp %}{% include press/facts.md %}{% endcapture %}
@@ -23,3 +28,5 @@ layout: white
   {% capture temp %}{% include press/content.md %}{% endcapture %}
   {{ temp | markdownify }}
 </section>
+
+Last updated September 2023.

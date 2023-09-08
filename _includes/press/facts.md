@@ -11,6 +11,9 @@
 **Status**
 : In development<br>Looking for funding
 
+**Release date**
+: Coming 2024
+
 **Developer**
 : [Stormcloak Games](https://stormcloak.games)
   <br>
@@ -52,3 +55,8 @@
   {%- if site.pinboard_username -%}<a rel="me" class="highlight-inline" href="https://pinboard.in/u:{{ site.pinboard_username| cgi_escape | escape }}" title="Pinboard"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#pinboard' | relative_url }}"></use></svg> <span class="username">Pinboard</span></a><br>{%- endif -%}
 
   {%- if site.rss -%}<a rel="me" class="highlight-inline" href="{{ 'feed.xml' | relative_url }}" title="RSS"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#rss' | relative_url }}"></use></svg> <span>RSS</span></a><br>{%- endif -%}
+
+<!-- -->
+
+**Website**
+: [adaptorygame.com](https://adaptorygame.com)

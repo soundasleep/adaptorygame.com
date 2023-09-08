@@ -11,11 +11,13 @@
     {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
   {% endif %}
 
-  <body class="{{ body_class }} layout-white" id="{{ body_id }}">
+  <body class="{{ body_class }} layout-press" id="{{ body_id }}">
     <div id="top-banner"></div>
 
     <main class="page-content" aria-label="Content">
-      {{ content }}
+      <div class="wrapper">
+        {{ content }}
+      </div>
     </main>
   </body>
 

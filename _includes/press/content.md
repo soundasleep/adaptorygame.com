@@ -1,14 +1,14 @@
-# Videos
+# <a name="videos"></a>Videos
 
-* [Download videos](#)
+* [Download videos](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <figure class="video">
   <iframe width="725" height="425" src="https://www.youtube.com/embed/ipI3hEsth0A" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
-# Images
+# <a name="images"></a>Images
 
-* [Download images](#)
+* [Download images](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <div class="gallery">
   <a href="/assets/images/press/main capsule 16x9@2x.png"><img src="/assets/images/press/main capsule 16x9@2x.png"></a>
@@ -21,16 +21,16 @@
   <a href="/assets/images/press/screenshots/zoomed out base.png"><img src="/assets/images/press/screenshots/zoomed out base.png"></a>
 </div>
 
-# Branding
+# <a name="branding"></a>Branding
 
-* [Download logos](#)
+* [Download logos](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <div class="gallery">
   <a href="/assets/images/press/adaptory logo@1x.png"><img src="/assets/images/press/adaptory logo@1x.png"></a>
   <a href="/assets/images/press/stormcloak logo 16x9 zoom@2x.png"><img src="/assets/images/press/stormcloak logo 16x9 zoom@2x.png"></a>
 </div>
 
-# Credits
+# <a name="credits"></a>Credits
 
 <div class="columns columns-4 credits">
   <div class="column">
