@@ -46,7 +46,8 @@
     <b>Cassandra Tse</b><br>
     <i>Story director</i><br>
     <span class="socials">
-      <a rel="me" class="highlight-inline" href="https://www.twitter.com/lulamorashi" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+      <a rel="me" class="highlight-inline" href="https://www.instagram.com/lulamorashi/" title="Instagram"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
+      <a rel="me" class="highlight-inline" href="https://lulamorashi.itch.io/" title="itch.io"><svg class="svg-icon"><use xlink:href="{{ '/assets/itchio.svg#itch' | relative_url }}"></use></svg></a>
     </span>
   </div>
   <div class="column">
