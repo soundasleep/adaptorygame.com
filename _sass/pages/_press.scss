@@ -101,13 +101,14 @@ body.layout-press {
       padding: 0;
     }
 
-    .toc {
-      $toc-width: $column-width * 0.75;
+    $toc-width: $column-width * 0.75;
 
+    .toc {
       display: block;
       position: absolute;
       width: $toc-width;
       left: -$toc-width;
+      margin-top: $spacing-unit * 0.2;
       @media screen and (max-width: $on-laptop + $toc-width + $column-width) {
         display: none;
       }
@@ -125,6 +126,10 @@ body.layout-press {
 
       img {
         max-width: (250px * 0.9);
+      }
+
+      .svg-icon {
+        margin: 4px;
       }
     }
     .description {

@@ -29,6 +29,6 @@ layout: press
   {{ temp | markdownify }}
 </section>
 
-Contact: Jevon Wright <[jevon@stormcloak.games](mailto:stormcloak.games)>
+Contact: Jevon Wright <[press@stormcloak.games](mailto:press@stormcloak.games)>
 
 Last updated September 2023.
