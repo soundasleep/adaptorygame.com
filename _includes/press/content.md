@@ -13,10 +13,12 @@
 <div class="gallery">
   <a href="/assets/images/press/main capsule 16x9@2x.png"><img src="/assets/images/press/main capsule 16x9@2x.png"></a>
   <a href="/assets/images/press/screenshots/base in progress.png"><img src="/assets/images/press/screenshots/base in progress.png"></a>
-  <a href="/assets/images/press/screenshots/diary entry.png"><img src="/assets/images/press/screenshots/diary entry.png"></a>
+  <a href="/assets/images/press/screenshots/diary.png"><img src="/assets/images/press/screenshots/diary.png"></a>
   <a href="/assets/images/press/screenshots/liquids.png"><img src="/assets/images/press/screenshots/liquids.png"></a>
   <a href="/assets/images/press/screenshots/meteor.png"><img src="/assets/images/press/screenshots/meteor.png"></a>
-  <a href="/assets/images/press/screenshots/pending build.png"><img src="/assets/images/press/screenshots/pending build.png"></a>
+  <a href="/assets/images/press/screenshots/power network.png"><img src="/assets/images/press/screenshots/power network.png"></a>
+  <a href="/assets/images/press/screenshots/sleeping.png"><img src="/assets/images/press/screenshots/sleeping.png"></a>
+  <a href="/assets/images/press/screenshots/trees next to coal generator.png"><img src="/assets/images/press/screenshots/trees next to coal generator.png"></a>
   <a href="/assets/images/press/screenshots/water drops.png"><img src="/assets/images/press/screenshots/water drops.png"></a>
   <a href="/assets/images/press/screenshots/zoomed out base.png"><img src="/assets/images/press/screenshots/zoomed out base.png"></a>
 </div>
