@@ -1,4 +1,10 @@
 <ul class="social-media-list">
+  {%- if site.steam -%}<li><a rel="me" class="highlight-inline" href="https://store.steampowered.com/app/2201620/Adaptory/" title="Wishlist Adaptory on Steam"><svg class="svg-icon steam"><use xlink:href="{{ '/assets/steam1.svg#steam' | relative_url }}"></use></svg> <span class="username">steam</span></a></li>{%- endif -%}
+
+  <li><a rel="me" class="highlight-inline" href="https://soundasleepful.itch.io/adaptory" title="Download the latest Adaptory alpha on itch.io"><svg class="svg-icon itch"><use xlink:href="{{ '/assets/itchio.svg#itch' | relative_url }}"></use></svg> <span class="username">itch.io</span></a></li>
+
+  <li><a rel="me" class="highlight-inline" href="https://discord.gg/gku8afsKWF" title="Hangout on Discord"><svg class="svg-icon discord"><use xlink:href="{{ '/assets/discord1.svg#discord' | relative_url }}"></use></svg> <span class="username">discord</span></a></li>
+
   {%- if site.subreddit -%}<li><a rel="me" class="highlight-inline" href="https://reddit.com/r/{{ site.subreddit| cgi_escape | escape }}" title="Reddit"><svg class="svg-icon"><use xlink:href="{{ '/assets/reddit1.svg#reddit' | relative_url }}"></use></svg> <span class="username">{{ site.subreddit| escape }}</span></a></li>{%- endif -%}
 
   {%- if site.dribbble_username -%}<li><a rel="me" class="highlight-inline" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" title="Dribble"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg> <span class="username">{{ site.dribbble_username| escape }}</span></a></li>{%- endif -%}
