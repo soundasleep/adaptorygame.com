@@ -19,8 +19,8 @@ A base-building exploration & survival game, combining multiple complex simulati
 
 _Adaptory_ started as a prototype in February 2021.
 Once a fun gameplay loop was identified,
-_Stormcloak Games_ was founded in November 2021 to support full-time development of
-Adapatory as their first title.
+_Stormcloak Games_ was incorporated in November 2021 to support full-time development of
+Adaptory as their first title.
 
 The [first playable Adaptory release](https://stormcloak.games/2022/04/30/first-playable-release)
 was released to Patreons in April 2022,
