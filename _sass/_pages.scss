@@ -305,10 +305,12 @@ body.layout-blank {
 
         p.call-to-action {
           text-align: center;
-          margin-top: -$spacing-unit * 0.5;
+          margin: $spacing-unit * 1;
 
           a {
             @include homepage-call-to-action-button();
+            margin-left: $spacing-unit * 0.5;
+            margin-right: $spacing-unit * 0.5;
           }
 
           a > svg.svg-icon {

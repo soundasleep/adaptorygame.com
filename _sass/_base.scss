@@ -107,7 +107,25 @@ i, em {
     vertical-align: top;
   }
 
+  &.columns-2 {
+    > .column { width: 49%; }
+  }
+  &.columns-3 {
+    > .column { width: 33%; }
+  }
   &.columns-4 {
     > .column { width: 24%; }
+  }
+
+  @media screen and (max-width: $tablet * 1.2) {
+    &.columns-2 {
+      > .column { width: 100%; }
+    }
+    &.columns-3 {
+      > .column { width: 100%; }
+    }
+    &.columns-4 {
+      > .column { width: 49%; }
+    }
   }
 }
