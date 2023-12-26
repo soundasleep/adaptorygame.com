@@ -3,7 +3,7 @@ layout: page
 title: Roadmap
 ---
 
-## Gameplay roadmap (updated Oct 2023)
+## Gameplay roadmap (updated Dec 2023)
 
 _Adaptory_ is being designed as a base-builder with dozens of individual systems, all interacting together in novel and emergent ways.
 The plan is to regularly release updates showing off each new system,
@@ -33,6 +33,7 @@ Some systems might not be fun, or we might get new ideas!
 - Food production
 - Pawn priorities and resource counters
 - Tools for streamers
+- Aarch64 / ARM64 native builds
 
 ### <span style="color:#E79843;">Planned</span>
 
