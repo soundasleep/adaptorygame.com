@@ -116,6 +116,9 @@ i, em {
   &.columns-4 {
     > .column { width: 24%; }
   }
+  &.columns-5 {
+    > .column { width: 19%; }
+  }
 
   @media screen and (max-width: $tablet * 1.2) {
     &.columns-2 {
@@ -125,6 +128,9 @@ i, em {
       > .column { width: 100%; }
     }
     &.columns-4 {
+      > .column { width: 49%; }
+    }
+    &.columns-5 {
       > .column { width: 49%; }
     }
   }
