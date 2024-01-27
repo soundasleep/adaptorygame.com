@@ -12,6 +12,7 @@
 
 <div class="gallery">
   <a href="/assets/images/press/main capsule 16x9@2x.png"><img src="/assets/images/press/main capsule 16x9@2x.png"></a>
+  <a href="/assets/images/press/screenshots/carrying materials.png"><img src="/assets/images/press/screenshots/carrying materials.png"></a>
   <a href="/assets/images/press/screenshots/conversation.png"><img src="/assets/images/press/screenshots/conversation.png"></a>
   <a href="/assets/images/press/screenshots/base with fog of war.png"><img src="/assets/images/press/screenshots/base with fog of war.png"></a>
   <a href="/assets/images/press/screenshots/building wires.png"><img src="/assets/images/press/screenshots/building wires.png"></a>
