@@ -68,6 +68,11 @@ footer.site-footer {
     li + li {
       padding-top: $spacing-unit * 0.33;
     }
+
+    li.line-below {
+      height: 6px;
+      @include slight-border("bottom");
+    }
   }
 
   ul.mini-links {
