@@ -16,14 +16,14 @@ Some systems might not be fun, or we might get new ideas!
 
 - [Element simulation](https://stormcloak.games/2022/03/29/focusing-on-materials)
 - Light
-- [Pawns](https://stormcloak.games/2022/09/21/hair-and-release-date)
+- [Explorers](https://stormcloak.games/2022/09/21/hair-and-release-date)
 - [Multithreading](https://stormcloak.games/2022/10/03/multithreaded-simulations)
 - [Electricity](https://stormcloak.games/2023/01/30/alpha-2) and [power layers](https://stormcloak.games/2023/03/06/power-layer)
 - [Random events](https://stormcloak.games/2023/03/16/random-events)
-- [Pawn happiness](https://stormcloak.games/2023/03/24/beds-and-happiness)
+- [Explorer happiness](https://stormcloak.games/2023/03/24/beds-and-happiness)
 - [Buildings](https://stormcloak.games/2023/03/24/beds-and-happiness)
 - [Diary entries](https://stormcloak.games/2023/08/01/alpha-5)
-- [Pawn traits](https://stormcloak.games/2023/08/01/alpha-5)
+- [Explorer traits](https://stormcloak.games/2023/08/01/alpha-5)
 - [Tutorials](https://stormcloak.games/2023/10/11/alpha-6)
 
 ### <span style="color:#E7CA43;">Up next / in progress</span>
@@ -31,13 +31,13 @@ Some systems might not be fun, or we might get new ideas!
 - [Liquid pipes](https://stormcloak.games/2023/08/01/alpha-5) and air vents
 - Plants
 - Food production
-- Pawn priorities and resource counters
+- Explorer priorities and resource counters
 - Tools for streamers
 - Aarch64 / ARM64 native builds
 
 ### <span style="color:#E79843;">Planned</span>
 
-- Pawn skills
+- Explorer skills
 - Heating and refrigeration
 - Refinement
 - Critters

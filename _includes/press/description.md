@@ -10,8 +10,8 @@ A base-building exploration & survival game, combining multiple complex simulati
 
 - Multiple element and chemistry simulations with more than 40 different materials
 - Randomly generated events triggered by player exploration
-- Pawns express themselves and their personalities
-- Every world and pawn is procedurally generated
+- Explorers express themselves and their personalities
+- Every world and explorer is procedurally generated
 - Regular content updates
 - For Windows and Mac
 
