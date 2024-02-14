@@ -12,7 +12,7 @@
 : In development<br>Looking for funding
 
 **Release date**
-: Coming 2024
+: Coming 2025
 
 **Developer**
 : [Stormcloak Games](https://stormcloak.games)
@@ -26,6 +26,8 @@
 
 **Socials**
 : <!-- -->
+  <a rel="me" class="highlight-inline" href="/discord" title="Hang out on Discord"><svg class="svg-icon discord"><use xlink:href="{{ '/assets/discord1.svg#discord' | relative_url }}"></use></svg> <span class="username">Discord</span></a><br>
+
   {%- if site.subreddit -%}<a rel="me" class="highlight-inline" href="https://reddit.com/r/{{ site.subreddit| cgi_escape | escape }}" title="Reddit"><svg class="svg-icon"><use xlink:href="{{ '/assets/reddit1.svg#reddit' | relative_url }}"></use></svg> <span class="username">Reddit</span></a><br>{%- endif -%}
 
   {%- if site.dribbble_username -%}<a rel="me" class="highlight-inline" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" title="Dribble"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg> <span class="username">Dribbble</span></a><br>{%- endif -%}

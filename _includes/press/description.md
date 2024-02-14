@@ -9,10 +9,11 @@ A base-building exploration & survival game, combining multiple complex simulati
 ## <a name="features"></a>Features
 
 - Multiple element and chemistry simulations with more than 40 different materials
-- Randomly generated events triggered by player exploration
-- Explorers express themselves and their personalities
-- Every world and explorer is procedurally generated
-- Regular content updates
+- Randomly generated world events triggered by player exploration
+- Explorers express themselves and their personalities with conversations and diary entries
+- Every world and explorer is procedurally generated with hidden spaces to discover
+- Players are limited to eight explorers, to encourage mastery and automation
+- Regular free content updates on Steam and itch.io
 - For Windows and Mac
 
 ## <a name="history"></a>History
@@ -23,15 +24,16 @@ _Stormcloak Games_ was incorporated in November 2021 to support full-time develo
 Adaptory as their first title.
 
 The [first playable Adaptory release](https://stormcloak.games/2022/04/30/first-playable-release)
-was released to Patreons in April 2022,
-[on itch.io](https://stormcloak.games/2022/10/30/download-alpha-1) in October 2022,
-and regular alpha updates have been released
-every two months [for free on itch.io](https://soundasleepful.itch.io/adaptory).
-These alpha updates will continue until shortly before the Early Access release on Steam.
+was released to Patreons in April 2022, and then
+[on itch.io](https://stormcloak.games/2022/10/30/download-alpha-1) in October 2022.
+Regular alpha updates have since been released
+every two months [for free on itch.io](https://soundasleepful.itch.io/adaptory)
+and most recently [Alpha 7 in December 2023](https://stormcloak.games/2023/12/21/alpha-7).
 
-A demo will be promoted as part of [Steam Next Fest February 2024](https://store.steampowered.com/sale/nextfest).
-Version 1.0 will be [released on Steam](https://store.steampowered.com/app/2201620/Adaptory/)
-and itch.io later in 2024, with regular free content updates after release.
+After being part of Steam Next Fest [in February 2024](https://stormcloak.games/2024/01/28/steam-next-fest),
+the team are now [working hard on content and polish](https://stormcloak.games/2024/02/14/next-fest-whats-next) for
+an Early Access launch on Steam and itch.io in 2025.
+The studio will continue to release regular free content updates during Early Access.
 
 Adaptory and Stormcloak Games have been the recipient of the following grants and awards:
 
