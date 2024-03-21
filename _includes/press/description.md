@@ -39,6 +39,7 @@ Adaptory and Stormcloak Games have been the recipient of the following grants an
 
 * [NZ Film Commission Interactive Development Fund](https://www.nzfilm.co.nz/news/interactive-development-fund-annoucement-0) (2023)
 * [NZ Center of Digital Excellence (CODE) travel grants](https://www.nz-code.nz/) (2023)
+* [NZ Center of Digital Excellence (CODE) Kick Start grant](https://www.nz-code.nz/post/code-s-inaugural-national-funding-round-supports-game-developers-with-1m-in-grants) (2024)
 
 ## <a name="steam"></a>Steam
 
