@@ -29,8 +29,13 @@
 * [Download logos](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <div class="gallery">
+  <a href="/assets/images/press/adaptory logo black border no shadow.png"><img src="/assets/images/press/adaptory logo black border no shadow.png"></a>
   <a href="/assets/images/press/adaptory logo@1x.png"><img src="/assets/images/press/adaptory logo@1x.png"></a>
-  <a href="/assets/images/press/stormcloak logo 16x9 zoom@2x.png"><img src="/assets/images/press/stormcloak logo 16x9 zoom@2x.png"></a>
+</div>
+
+<div class="gallery">
+  <a href="/assets/images/press/stormcloak logo 16x9 zoom@4x.png"><img src="/assets/images/press/stormcloak logo 16x9 zoom@4x.png"></a>
+  <a href="/assets/images/press/stormcloak colour logo@4x.png"><img src="/assets/images/press/stormcloak colour logo@4x.png"></a>
 </div>
 
 # <a name="credits"></a>Credits
