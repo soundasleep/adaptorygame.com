@@ -32,7 +32,8 @@ and most recently [Alpha 7 in December 2023](https://stormcloak.games/2023/12/21
 
 After being part of Steam Next Fest [in February 2024](https://stormcloak.games/2024/01/28/steam-next-fest),
 the team are now [working hard on content and polish](https://stormcloak.games/2024/02/14/next-fest-whats-next) for
-an Early Access launch on Steam and itch.io in 2025.
+an Early Access launch on Steam and itch.io in 2025,
+with the support of indie publisher [indie.io](https://indie.io).
 The studio will continue to release regular free content updates during Early Access.
 
 Adaptory and Stormcloak Games have been the recipient of the following grants and awards:

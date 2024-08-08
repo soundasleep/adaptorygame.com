@@ -19,6 +19,9 @@
   <br>
   Wellington, New Zealand
 
+**Publisher**
+: [indie.io](https://indie.io)
+
 **Platforms**
 : <a rel="me" class="highlight-inline" href="https://store.steampowered.com/app/2201620/Adaptory/" title="Wishlist Adaptory on Steam"><svg class="svg-icon steam"><use xlink:href="{{ '/assets/steam1.svg#steam' | relative_url }}"></use></svg> <span class="username">Steam</span></a>
   <br>
