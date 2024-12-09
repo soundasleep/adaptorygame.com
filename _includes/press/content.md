@@ -3,7 +3,7 @@
 * [Download videos](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <figure class="video">
-  <iframe width="725" height="425" src="https://www.youtube.com/embed/zie51sT-bMI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="725" height="425" src="https://www.youtube.com/embed/6dHjKjDnJiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 # <a name="images"></a>Images
@@ -43,7 +43,7 @@
 <div class="columns columns-5 credits">
   <div class="column">
     <b>Jevon Wright</b><br>
-    <i>Project lead</i><br>
+    <i>Solo developer</i><br>
     <span class="socials">
       <a rel="me" class="highlight-inline" href="https://mastodon.social/soundasleep" title="Mastodon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg></a>
       <a rel="me" class="highlight-inline" href="https://www.twitter.com/soundasleep" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
@@ -52,7 +52,7 @@
   </div>
   <div class="column">
     <b>Cassandra Tse</b><br>
-    <i>Story director</i><br>
+    <i>Story</i><br>
     <span class="socials">
       <a rel="me" class="highlight-inline" href="https://www.instagram.com/lulamorashi/" title="Instagram"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
       <a rel="me" class="highlight-inline" href="https://lulamorashi.itch.io/" title="itch.io"><svg class="svg-icon"><use xlink:href="{{ '/assets/itchio.svg#itch' | relative_url }}"></use></svg></a>
@@ -60,7 +60,7 @@
   </div>
   <div class="column">
     <b>Claire "Care" Sebastian</b><br>
-    <i>Artist</i><br>
+    <i>Art</i><br>
     <span class="socials">
       <a rel="me" class="highlight-inline" href="https://www.twitter.com/careously" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
     </span>
