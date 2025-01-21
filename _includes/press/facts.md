@@ -31,6 +31,10 @@
 : <!-- -->
   <a rel="me" class="highlight-inline" href="/discord" title="Hang out on Discord"><svg class="svg-icon discord"><use xlink:href="{{ '/assets/discord1.svg#discord' | relative_url }}"></use></svg> <span class="username">Discord</span></a><br>
 
+  {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<a rel="me" class="highlight-inline" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" title="Mastodon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">Mastodon</span></a><br>{%- endif -%}{%- endfor -%}
+
+  {%- if site.bluesky_username -%}<a rel="me" class="highlight-inline" href="https://bsky.app/profile/{{ site.bluesky_username| cgi_escape | escape }}" title="Bluesky"><svg class="svg-icon"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg> <span class="username">Bluesky</span></a><br>{%- endif -%}
+
   {%- if site.subreddit -%}<a rel="me" class="highlight-inline" href="https://reddit.com/r/{{ site.subreddit| cgi_escape | escape }}" title="Reddit"><svg class="svg-icon"><use xlink:href="{{ '/assets/reddit1.svg#reddit' | relative_url }}"></use></svg> <span class="username">Reddit</span></a><br>{%- endif -%}
 
   {%- if site.dribbble_username -%}<a rel="me" class="highlight-inline" href="https://dribbble.com/{{ site.dribbble_username| cgi_escape | escape }}" title="Dribble"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#dribbble' | relative_url }}"></use></svg> <span class="username">Dribbble</span></a><br>{%- endif -%}
@@ -46,8 +50,6 @@
   {%- if site.facebook_username -%}<a rel="me" class="highlight-inline" href="https://www.facebook.com/{{ site.facebook_username| cgi_escape | escape }}" title="Facebook"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#facebook' | relative_url }}"></use></svg> <span class="username">Facebook</span></a><br>{%- endif -%}
 
   {%- if site.twitter_username -%}<a rel="me" class="highlight-inline" href="https://www.twitter.com/{{ site.twitter_username| cgi_escape | escape }}" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg> <span class="username">Twitter</span></a><br>{%- endif -%}
-
-  {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<a rel="me" class="highlight-inline" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" title="Mastodon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">Mastodon</span></a><br>{%- endif -%}{%- endfor -%}
 
   {%- if site.linkedin_username -%}<a rel="me" class="highlight-inline" href="https://www.linkedin.com/in/{{ site.linkedin_username| cgi_escape | escape }}" title="LinkedIn"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg> <span class="username">LinkedIn</span></a><br>{%- endif -%}
 
