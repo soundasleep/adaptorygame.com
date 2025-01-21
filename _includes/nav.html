@@ -16,7 +16,7 @@
 
     {%- if site.subreddit -%}<li><a class="highlight-inline" href="https://reddit.com/r/{{ site.subreddit| cgi_escape | escape }}" title="Join the Adaptory community subreddit"><svg class="svg-icon reddit"><use xlink:href="{{ '/assets/reddit1.svg#reddit' | relative_url }}"></use></svg> <span class="username">{{ site.subreddit| escape }}</span></a></li>{%- endif -%}
 
-    {%- if site.bluesky_username -%}<li><a rel="me" class="highlight-inline" href="https://bsky.app/profile/{{ site.bluesky_username| cgi_escape | escape }}" title="Bollow Adaptory on Bluesky"><svg class="svg-icon bluesky"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg> <span class="username">{{ site.bluesky_username| escape }}</span></a></li>{%- endif -%}
+    {%- if site.bluesky_username -%}<li><a rel="me" class="highlight-inline" href="https://bsky.app/profile/{{ site.bluesky_username| cgi_escape | escape }}" title="Follow Adaptory on Bluesky"><svg class="svg-icon bluesky"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg> <span class="username">{{ site.bluesky_username| escape }}</span></a></li>{%- endif -%}
 
     {%- for mst in site.mastodon -%}{%- if mst.username and mst.instance -%}<li><a class="highlight-inline" href="https://{{ mst.instance| cgi_escape | escape}}/@{{mst.username}}" title="Follow Adaptory on Mastodon"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#mastodon' | relative_url }}"></use></svg> <span class="username">{{ mst.username|escape }}</span></a></li>{%- endif -%}{%- endfor -%}
   </ul>
