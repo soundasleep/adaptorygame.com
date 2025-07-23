@@ -8,11 +8,11 @@ A base-building exploration & survival game, combining multiple complex simulati
 
 ## <a name="features"></a>Features
 
-- Multiple element and chemistry simulations with more than 40 different materials
-- Randomly generated world events triggered by player exploration
-- Explorers express themselves and their personalities with conversations and diary entries
+- Keep your crew members alive and learn from their conversations and diary entries
+- Randomly generated world events are triggered as your crew digs deeper
+- The player is limited to eight explorers, so base design and automation becomes essential
+- Sophisticated physics and chemistry-based simulations with more than 50 elements, resulting in deep and emergent gameplay
 - Every world and explorer is procedurally generated with hidden spaces to discover
-- Players are limited to eight explorers, to encourage mastery and automation
 - Regular free content updates on Steam and itch.io
 - For Windows and Mac
 
@@ -39,7 +39,7 @@ The studio will continue to release regular free content updates during Early Ac
 Adaptory and Stormcloak Games have been the recipient of the following grants and awards:
 
 * [NZ Film Commission Interactive Development Fund](https://www.nzfilm.co.nz/news/interactive-development-fund-annoucement-0) (2023)
-* [NZ Center of Digital Excellence (CODE) travel grants](https://www.nz-code.nz/) (2023)
+* [NZ Center of Digital Excellence (CODE) travel grants](https://www.nz-code.nz/) (2023, 2025)
 * [NZ Center of Digital Excellence (CODE) Kick Start grant](https://www.nz-code.nz/post/code-s-inaugural-national-funding-round-supports-game-developers-with-1m-in-grants) (2024)
 
 ## <a name="steam"></a>Steam

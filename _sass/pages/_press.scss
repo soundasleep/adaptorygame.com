@@ -20,7 +20,7 @@ body.layout-press {
   font-weight: normal;
 
   #top-banner {
-    background: url('/assets/images/press/screenshots/carrying materials.png') 50% 55%;
+    background: url('/assets/images/press/screenshots/base start.png') 50% 62%;
     background-size: cover;
     width: 100%;
     height: $spacing-unit * $top-banner-height;
@@ -166,12 +166,23 @@ body.layout-press {
     }
 
     .credits {
-      .column {
+      border: 0;
+
+      tr {
+        background: transparent;
+        color: $black;
+        border: 0;
+      }
+      td {
         text-align: center;
-        .socials {
-          display: inline-block;
-          margin-top: 5px;
-        }
+        border: 0;
+        width: 20%;
+      }
+
+      .socials {
+        display: inline-block;
+        margin-top: $spacing-unit * 0.2;
+        padding-left: $spacing-unit * 0.1;
       }
     }
   }

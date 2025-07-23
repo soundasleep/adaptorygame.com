@@ -107,6 +107,9 @@ i, em {
     vertical-align: top;
   }
 
+  &.columns-1 {
+    > .column { width: 100%; }
+  }
   &.columns-2 {
     > .column { width: 49%; }
   }
