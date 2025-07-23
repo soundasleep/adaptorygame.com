@@ -79,6 +79,9 @@
       <i>Composer</i><br>
       <span class="socials">
         <a rel="me" class="highlight-inline" href="https://www.twitter.com/viusmusic" title="Twitter"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#twitter' | relative_url }}"></use></svg></a>
+        <a rel="me" class="highlight-inline" href="https://www.linkedin.com/in/viusmusic/" title="LinkedIn"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#linkedin' | relative_url }}"></use></svg></a>
+        <a rel="me" class="highlight-inline" href="https://bsky.app/profile/vius.bsky.social" title="Bluesky"><svg class="svg-icon"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg></a>
+        <a rel="me" class="highlight-inline" href="https://www.instagram.com/viusstudios/" title="Instagram"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
       </span>
     </td>
     <td>
