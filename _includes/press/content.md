@@ -48,7 +48,7 @@
 
 <table class="credits">
   <tr>
-    <td colspan="5">
+    <td colspan="3">
       <b>Jevon Wright</b><br>
       <i>Solo developer</i><br>
       <span class="socials">
@@ -60,7 +60,7 @@
     </td>
   </tr>
   <tr>
-    <td colspan="5">With the support of:</td>
+    <td colspan="3">With the support of:</td>
   </tr>
   <tr>
     <td>
@@ -88,6 +88,8 @@
         <a rel="me" class="highlight-inline" href="https://www.instagram.com/viusstudios/" title="Instagram"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
       </span>
     </td>
+  </tr>
+  <tr>
     <td>
       <b>Evan Burman</b><br>
       <i>Sound design</i><br>
@@ -102,6 +104,13 @@
       <span class="socials">
         <a rel="me" class="highlight-inline" href="https://www.instagram.com/unkatty_animation/" title="Instagram"><svg class="svg-icon"><use xlink:href="{{ '/assets/minima-social-icons.svg#instagram' | relative_url }}"></use></svg></a>
         <a rel="me" class="highlight-inline" href="https://bsky.app/profile/uncatty.bsky.social" title="Bluesky"><svg class="svg-icon"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg></a>
+      </span>
+    </td>
+    <td>
+      <b>Ruby Kemp</b><br>
+      <i>Community Manager</i><br>
+      <span class="socials">
+        <a rel="me" class="highlight-inline" href="https://bsky.app/profile/thisisrubyok.bsky.social" title="Bluesky"><svg class="svg-icon"><use xlink:href="{{ '/assets/bluesky1.svg#bluesky' | relative_url }}"></use></svg></a>
       </span>
     </td>
   </tr>
