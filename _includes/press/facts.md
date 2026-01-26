@@ -9,10 +9,10 @@
 : Base-building / simulation
 
 **Status**
-: In development<br>Looking for funding
+: Entering Steam Early Access
 
 **Release date**
-: Coming 2025
+: 26 January 2026
 
 **Developer**
 : [Stormcloak Games](https://stormcloak.games)

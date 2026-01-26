@@ -10,11 +10,12 @@ A base-building exploration & survival game, combining multiple complex simulati
 
 - Keep your crew members alive and learn from their conversations and diary entries
 - Randomly generated world events are triggered as your crew digs deeper
-- The player is limited to eight explorers, so base design and automation becomes essential
+- The player is limited to eight explorers, to encourage mastery and automation
 - Sophisticated physics and chemistry-based simulations with more than 50 elements, resulting in deep and emergent gameplay
-- Every world and explorer is procedurally generated with hidden spaces to discover
-- Regular free content updates on Steam and itch.io
-- For Windows and Mac
+- Every world and explorer is procedurally generated with mysteries to uncover
+- Build a thriving base, rebuild your ship, and ultimately get home
+- Regular free content updates on Steam and itch.io during Early Access
+- Available for Windows and Mac
 
 ## <a name="history"></a>History
 
@@ -32,7 +33,7 @@ and most recently [Alpha 7 in December 2023](https://stormcloak.games/2023/12/21
 
 After being part of Steam Next Fest [in February 2024](https://stormcloak.games/2024/01/28/steam-next-fest),
 the team are now [working hard on content and polish](https://stormcloak.games/2024/02/14/next-fest-whats-next) for
-an Early Access launch on Steam and itch.io in 2025,
+a January 2026 Early Access launch on Steam and itch.io,
 with the support of [our publisher indie.io](https://stormcloak.games/2024/08/08/publisher-announcement).
 The studio will continue to release regular free content updates during Early Access.
 
@@ -41,6 +42,14 @@ Adaptory and Stormcloak Games have been the recipient of the following grants an
 * [NZ Film Commission Interactive Development Fund](https://www.nzfilm.co.nz/news/interactive-development-fund-annoucement-0) (2023)
 * [NZ Center of Digital Excellence (CODE) travel grants](https://www.nz-code.nz/) (2023, 2025)
 * [NZ Center of Digital Excellence (CODE) Kick Start grant](https://www.nz-code.nz/post/code-s-inaugural-national-funding-round-supports-game-developers-with-1m-in-grants) (2024)
+
+Adaptory has been showcased in multiple events around the world, including at
+[PAX Aus 2023](https://stormcloak.games/2023/09/22/solid-element-art),
+[TactiCon 2024](https://stormcloak.games/2024/07/18/alpha-10),
+[PAX Aus 2024](https://stormcloak.games/2024/09/29/pax-aus),
+[Gamescom 2025 (with Indie Arena Booth)](https://stormcloak.games/2025/07/06/gamescom),
+[PAX West 2025](https://stormcloak.games/2025/08/29/pax-west),
+and most recently at [PAX Aus 2025](https://stormcloak.games/2025/09/30/pax-aus-2025).
 
 ## <a name="steam"></a>Steam
 

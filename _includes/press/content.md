@@ -3,11 +3,11 @@
 * [Download videos](https://drive.google.com/drive/folders/1WgJTYsf8yiNfpv-d2c1QvgU2KLPdZM6r?usp=sharing)
 
 <figure class="video">
-  <iframe width="725" height="425" src="https://www.youtube.com/embed/SLBF4bQTdB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="725" height="425" src="https://www.youtube.com/embed/P-490i6Pd9Q" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 <figure class="video">
-  <iframe width="725" height="425" src="https://www.youtube.com/embed/6dHjKjDnJiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <iframe width="725" height="425" src="https://www.youtube.com/embed/SLBF4bQTdB0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 </figure>
 
 # <a name="images"></a>Images
@@ -16,18 +16,15 @@
 
 <div class="gallery">
   <a href="/assets/images/press/main capsule 16x9@2x.png"><img src="/assets/images/press/main capsule 16x9@2x.png"></a>
-  <a href="/assets/images/press/screenshots/base start.png"><img src="/assets/images/press/screenshots/base start.png"></a>
-  <a href="/assets/images/press/screenshots/chit chat.png"><img src="/assets/images/press/screenshots/chit chat.png"></a>
-  <a href="/assets/images/press/screenshots/cryo and harvest.png"><img src="/assets/images/press/screenshots/cryo and harvest.png"></a>
-  <a href="/assets/images/press/screenshots/diary writing.png"><img src="/assets/images/press/screenshots/diary writing.png"></a>
-  <a href="/assets/images/press/screenshots/full base with gases.png"><img src="/assets/images/press/screenshots/full base with gases.png"></a>
-  <a href="/assets/images/press/screenshots/in trouble.png"><img src="/assets/images/press/screenshots/in trouble.png"></a>
-  <a href="/assets/images/press/screenshots/meteor debris.png"><img src="/assets/images/press/screenshots/meteor debris.png"></a>
-  <a href="/assets/images/press/screenshots/pa told me.png"><img src="/assets/images/press/screenshots/pa told me.png"></a>
-  <a href="/assets/images/press/screenshots/pipes and wires chat.png"><img src="/assets/images/press/screenshots/pipes and wires chat.png"></a>
-  <a href="/assets/images/press/screenshots/starting team.png"><img src="/assets/images/press/screenshots/starting team.png"></a>
-  <a href="/assets/images/press/screenshots/writing cryo science.png"><img src="/assets/images/press/screenshots/writing cryo science.png"></a>
-  <a href="/assets/images/press/screenshots/automation off.png"><img src="/assets/images/press/screenshots/automation off.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_01.png"><img src="/assets/images/press/screenshots/screenshot_01.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_02.png"><img src="/assets/images/press/screenshots/screenshot_02.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_03.png"><img src="/assets/images/press/screenshots/screenshot_03.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_04.png"><img src="/assets/images/press/screenshots/screenshot_04.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_05.png"><img src="/assets/images/press/screenshots/screenshot_05.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_06.png"><img src="/assets/images/press/screenshots/screenshot_06.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_07.png"><img src="/assets/images/press/screenshots/screenshot_07.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_08.png"><img src="/assets/images/press/screenshots/screenshot_08.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_09.png"><img src="/assets/images/press/screenshots/screenshot_09.png"></a>
 </div>
 
 # <a name="branding"></a>Branding
