@@ -8,7 +8,7 @@ title: Leave feedback
 ## Thanks for playing Adaptory!
 
 I'd love to hear how you feel! You can [mail me directly](mailto:jevon@stormcloak.games)
-or come [join the party on Discord](https://discord.gg/gku8afsKWF).
+or come [join the party on Discord](https://discord.gg/JDpJTpMtkv).
 
 You can also share your feedback with others on the web:
 
