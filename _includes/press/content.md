@@ -29,6 +29,8 @@
   <a href="/assets/images/press/screenshots/screenshot_07.png"><img src="/assets/images/press/screenshots/screenshot_07.png"></a>
   <a href="/assets/images/press/screenshots/screenshot_08.png"><img src="/assets/images/press/screenshots/screenshot_08.png"></a>
   <a href="/assets/images/press/screenshots/screenshot_09.png"><img src="/assets/images/press/screenshots/screenshot_09.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_10.png"><img src="/assets/images/press/screenshots/screenshot_10.png"></a>
+  <a href="/assets/images/press/screenshots/screenshot_11.png"><img src="/assets/images/press/screenshots/screenshot_11.png"></a>
 </div>
 
 # <a name="branding"></a>Branding
