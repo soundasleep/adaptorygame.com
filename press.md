@@ -31,4 +31,4 @@ layout: press
 
 Contact: Jevon Wright <[hello@stormcloak.games](mailto:hello@stormcloak.games)>
 
-Last updated January 2026.
+Last updated August 2026.

@@ -9,7 +9,7 @@
 : Base-building / simulation
 
 **Status**
-: Entering Steam Early Access
+: [Steam Early Access](https://store.steampowered.com/app/2201620/Adaptory/)
 
 **Release date**
 : 26 January 2026
@@ -25,7 +25,10 @@
 **Platforms**
 : <a rel="me" class="highlight-inline" href="https://store.steampowered.com/app/2201620/Adaptory/" title="Wishlist Adaptory on Steam"><svg class="svg-icon steam"><use xlink:href="{{ '/assets/steam1.svg#steam' | relative_url }}"></use></svg> <span class="username">Steam</span></a>
   <br>
-  <a rel="me" class="highlight-inline" href="https://soundasleepful.itch.io/adaptory" title="Download the latest Adaptory alpha on itch.io"><svg class="svg-icon itch"><use xlink:href="{{ '/assets/itchio.svg#itch' | relative_url }}"></use></svg> <span class="username">itch.io</span></a><br>
+  <a rel="me" class="highlight-inline" href="https://soundasleepful.itch.io/adaptory" title="Download the latest Adaptory alpha on itch.io"><svg class="svg-icon itch"><use xlink:href="{{ '/assets/itchio.svg#itch' | relative_url }}"></use></svg> <span class="username">itch.io</span></a>
+  <br>
+  <a rel="me" class="highlight-inline" href="https://viusmusic.bandcamp.com/album/adaptory-original-soundtrack" title="Listen to the Adaptory soundtrack on Bandcamp"><svg class="svg-icon bandcamp"><use xlink:href="{{ '/assets/bandcamp.svg#bandcamp' | relative_url }}"></use></svg> <span class="username">Bandcamp</span></a>
+
 
 **Socials**
 : <!-- -->
