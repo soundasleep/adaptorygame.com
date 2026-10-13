@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html data-wf-page="6969acc90c02e35484d915b0" data-wf-site="6969acc80c02e35484d91574" lang="{{ page.lang | default: site.lang | default: "en" }}">
+
+  {%- include head2.html -%}
+
+  {% if page.name %}
+    {%- assign body_class = "page-" | append: page.name | replace: ".md", "" | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
+  {% else %}
+    {%- assign body_class = "page-" | append: page.id | slugify -%}
+    {%- assign body_id = "page_" | append: page.name | replace: ".md", "" -%}
+  {% endif %}
+
+  <body class="{{ body_class }} layout-blank" id="{{ body_id }}">
+    {{ content }}
+  </body>
+
+</html>

@@ -1,63 +1,150 @@
 ---
-layout: blank
+layout: blank2
 ---
-<header class="logo">
-  <a href="/"><img src="/assets/images/adaptory logo@900.png"></a>
-</header>
-
-<div class="wrap-article">
-  <article class="post">
-    {%- include nav.html -%}
-
-    <div class="post-content">
-      <div class="header">
-        <h3><em>Adaptory</em> is an upcoming base-building survival game, combining multiple complex simulations with a story-rich world.</h3>
-
-        <p class="call-to-action">
-          <iframe width="725" height="408" src="https://www.youtube.com/embed/6dHjKjDnJiA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-        </p>
-
-        <p class="call-to-action">
-          <iframe src="https://store.steampowered.com/widget/2201620/" frameborder="0" width="600" height="190" style="max-width:100%;"></iframe>
-        </p>
-
-        <p class="call-to-action">
-          <iframe src="https://itch.io/embed/1764047?linkback=true&amp;bg_color=0f0f0f&amp;fg_color=d9d9d9&amp;link_color=F1DA92&amp;border_color=333333" width="600" height="167" frameborder="0" style="max-width:100%;"><a href="https://soundasleepful.itch.io/adaptory">Adaptory by soundasleepful</a></iframe>
-        </p>
-
-        <p class="call-to-action">
-          <a href="https://dashboard.mailerlite.com/forms/797385/111659467457693483/share" class="button">Sign up for updates</a>
-          <a href="/discord" class="button discord"><svg class="svg-icon"><use xlink:href="/assets/discord1.svg#discord"></use></svg> Join us on Discord</a>
-          <a href="https://patreon.com/jevon" class="button patreon"><svg class="svg-icon"><use xlink:href="/assets/patreon.svg#patreon"></use></svg> Support us on Patreon</a>
-        </p>
+<div data-collapse="medium" data-animation="over-left" data-duration="200" data-easing="ease" data-easing2="ease" data-doc-height="1" role="banner" class="navigation w-nav">
+    <div class="navigation-wrap">
+      <a href="index.html" aria-current="page" class="logo-link w-nav-brand w--current"><img src="images/Adaptory-Logo-Black-No-Border.png" width="108" sizes="108px" srcset="images/Adaptory-Logo-Black-No-Border-p-500.png 500w, images/Adaptory-Logo-Black-No-Border-p-800.png 800w, images/Adaptory-Logo-Black-No-Border.png 1000w" alt="" class="logo-image"></a>
+      <div class="menu">
+        <nav role="navigation" class="navigation-items w-nav-menu">
+          <a href="/" aria-current="page" class="navigation-item w-nav-link w--current">HOME</a>
+          <a href="/press" class="navigation-item w-nav-link">PRESS KIT</a>
+          <!-- <a href="mailing-list.html" class="navigation-item w-nav-link">MAILING LIST</a> -->
+          <a href="/soundtrack" class="navigation-item w-nav-link">SOUNDTRACK</a>
+          <a href="https://stormcloak.games/blog" class="navigation-item mobile-only w-nav-link">DEV BLOG</a>
+        </nav>
+        <div class="menu-button w-nav-button"><img src="images/icon_menu_white.png" width="22" alt="" class="menu-icon"></div>
       </div>
-
-      <div class="wrap-content-and-feed">
-        <div class="content">
-          {{ content }}
-        </div>
-        <div class="feed">
-          <!-- MailerLite Universal -->
-          <script>
-              (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
-              .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
-              n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
-              (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
-              ml('account', '797385');
-          </script>
-          <!-- End MailerLite Universal -->
-
-          <div class="ml-form-center">
-            <div class="ml-embedded" data-form="Xc8V9X"></div>
-          </div>
-
-          <iframe class="mastodon-timeline" allowfullscreen sandbox="allow-top-navigation allow-scripts allow-popups allow-popups-to-escape-sandbox" src="https://mastofeed.com/apiv2/feed?userurl=https%3A%2F%2Fmastodon.gamedev.place%2Fusers%2Fstormcloak&theme=dark&size=80&header=true&replies=true&boosts=false">Toots by Stormcloak</iframe>
-        </div>
+      <a href="https://stormcloak.games/blog" target="_blank" class="button header dev-blog w-inline-block">
+        <div>DEV BLOG</div>
+      </a>
+    </div>
+  </div>
+  <header class="intro-header">
+    <div data-w-id="86e64837-0616-515b-4568-76c147234d1f" style="opacity:0" class="intro-content homepage">
+      <div class="intro-text"><img src="images/Adaptory-Logo.png" loading="lazy" sizes="100vw" srcset="images/Adaptory-Logo-p-500.png 500w, images/Adaptory-Logo-p-800.png 800w, images/Adaptory-Logo.png 1000w" alt="Adaptory logo" class="logo">
+        <div class="paragraph-bigger">A 2D base-building survival game, combining multiple complex simulations with a story-rich world — now in Early Access!</div>
+      </div>
+      <div class="social-menu">
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237c7" style="opacity:0" href="https://adaptorygame.com/discord" target="_blank" class="w-inline-block"><img src="images/discord_white.svg" loading="lazy" alt="Adaptory Discord community link" class="social-icon"></a>
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237c9" style="opacity:0" href="https://bsky.app/profile/stormcloak.games" target="_blank" class="w-inline-block"><img src="images/bluesky_white.svg" loading="lazy" alt="Stormcloak Games Bluesky link" class="social-icon"></a>
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237c5" style="opacity:0" href="https://youtube.com/%40stormcloaknz" target="_blank" class="w-inline-block"><img src="images/youtube_white.svg" height="30" alt="Stormcloak Games YouTube Link" class="social-icon"></a>
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237c3" style="opacity:0" href="https://mastodon.gamedev.place/@stormcloak" target="_blank" class="w-inline-block"><img src="images/mastodon.svg" loading="lazy" alt="Stormcloak Games Mastodon Link" class="social-icon"></a>
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237bf" style="opacity:0" href="https://instagram.com/stormcloakgames" target="_blank" class="w-inline-block"><img width="32" height="32" alt="Stormcloak Games Instagram Link" src="images/instagram.svg" class="social-icon"></a>
+        <a data-w-id="a563054f-bc1b-0ea3-292a-3d5a04d237c1" style="opacity:0" href="https://www.twitter.com/stormcloakgames" target="_blank" class="w-inline-block"><img src="images/twitter.svg" height="32" alt="Stormcloak Games Twitter Link" class="social-icon"></a>
+      </div>
+      <div class="button-wrapper">
+        <a href="https://store.steampowered.com/app/2201620/Adaptory/" data-w-id="e05916f2-92de-418f-1b7f-af4ba9500eb8" style="opacity:0" target="_blank" class="button header w-inline-block">
+          <div>STEAM PAGE</div>
+        </a>
+        <a href="/press" data-w-id="86e64837-0616-515b-4568-76c147234d27" style="opacity:0" class="button header w-inline-block">
+          <div>PRESS KIT</div>
+        </a>
       </div>
     </div>
+  </header>
+  <section id="trailer" class="section">
+    <div class="w-layout-blockcontainer content-container w-container">
+      <div class="steam-wrapper">
+        <div class="embed-rounded w-embed w-iframe"><iframe src="https://store.steampowered.com/widget/2201620/" frameborder="0" width="600" height="190" style="max-width:100%;"></iframe></div>
+        <!--
+        <div class="embed-rounded w-embed"><iframe src="https://itch.io/embed/1764047?linkback=true&amp;bg_color=0f0f0f&amp;fg_color=d9d9d9&amp;link_color=F1DA92&amp;border_color=333333" width="600" height="167" frameborder="0" style="max-width:100%;"></iframe></div>
+      -->
+      </div>
+      <div data-w-id="6a60dd27-027e-c6b5-bfef-20666fc56b5b" style="opacity:0" class="announcement-banner speech-bubble"><img src="images/charli-happy_2_static_0_compressed.png" loading="lazy" alt="" class="charli">
+        <p class="announcement-text">We just released our brand new temperature update! Check out the trailer here &lt;3</p>
+      </div>
+      <br>
+      <div data-w-id="74e0de3c-34ba-cd6d-7dd3-ed09a483b6c9" style="opacity:0" class="video-wrap">
+        <div style="padding-top:56.17021276595745%" class="w-video w-embed"><iframe class="embedly-embed" src="https://cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FhzFHKjbgl_Y%3Ffeature%3Doembed&display_name=YouTube&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DhzFHKjbgl_Y&image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FhzFHKjbgl_Y%2Fhqdefault.jpg&type=text%2Fhtml&schema=youtube" width="940" height="528" scrolling="no" title="YouTube embed" frameborder="0" allow="autoplay; fullscreen; encrypted-media; picture-in-picture" allowfullscreen="true"></iframe></div>
+      </div>
+      <div class="button-wrapper wide">
+        <a href="https://adaptorygame.com/discord" data-w-id="a5b48100-1aa6-a8d9-2541-e40acf0624ff" style="opacity:0" target="_blank" class="button wide dark w-inline-block">
+          <div>JOIN US ON DISCORD</div>
+        </a>
+        <a href="https://patreon.com/jevon" data-w-id="056fc415-d70b-69f5-ddfc-54ba0f7b106f" style="opacity:0" target="_blank" class="button dark wide w-inline-block">
+          <div>SUPPORT US ON PATREON</div>
+        </a>
+      </div>
+      <div data-w-id="cea8faa1-e282-3095-dc56-25acb199da0a" style="opacity:0" class="embeds">
+        <div class="mailing-list-embed w-embed w-script">
+          <script>
+              (function(w, d, e, u, f, l, n) {
+                ((w[f] =
+                    w[f] ||
+                    function() {
+                      (w[f].q = w[f].q || []).push(arguments);
+                    }),
+                  (l = d.createElement(e)),
+                  (l.async = 1),
+                  (l.src = u),
+                  (n = d.getElementsByTagName(e)[0]),
+                  n.parentNode.insertBefore(l, n));
+              })(window, document, 'script', 'https://assets.mailerlite.com/js/universal.js', 'ml');
+              ml('account', '797385');
+            </script>
+          <!--  End MailerLite Universal  -->
+          <div class="ml-form-center">
+            <div class="ml-embedded" data-form="Xc8V9X"></div>
+</div></div></div></div></section><div class="divider"></div>
+            <section class="section">
+              <div class="container">
+                <div class="home-content-wrap">
+                  <div data-w-id="86e64837-0616-515b-4568-76c147234d33" style="opacity:0" class="w-layout-grid about-grid">
+                    <div class="home-section-wrap">
+                      <h2 class="section-heading">Help them survive</h2>
+                      <p>Your crew of four have crash-landed on a mysterious planetoid, deep in uncharted space. Using the planet’s limited resources and your creativity, you must keep your motley team alive, explore your surroundings, build a sustainable &amp; thriving base, master a variety of physics simulations, rebuild your crashed ship, and ultimately get home!</p>
+                    </div><img src="images/Background_Art_Thumbnail.jpg" id="w-node-_86e64837-0616-515b-4568-76c147234d3f-84d915b0" sizes="(max-width: 479px) 100vw, 49vw" srcset="images/4ac79537f98128e34c11f0f2aaa60802_Background_Art_Thumbnail-p-500.jpg 500w, images/4ac79537f98128e34c11f0f2aaa60802_Background_Art_Thumbnail-p-800.jpg 800w, images/Background_Art_Thumbnail.jpg 1280w" alt="Artwork featuring a team of four stranded space explorers working together in their survival base. In the foreground, one of the explorers has unearthed an ancient alien artefact, while their fellow explorer looks on in fascination." class="grid-image">
+                  </div>
+                  <div class="spacer"></div>
+                  <div class="w-layout-grid feature-grid">
+                    <div data-w-id="e0387a45-1367-163f-355c-105e169a6389" style="opacity:0" class="grid-container">
+                      <a id="w-node-_4c89927e-b307-4edb-6310-c806dc2f8aba-84d915b0" href="https://adaptorygame.com/assets/images/press/screenshots/screenshot_03.png" class="w-inline-block"><img src="images/ADAP_Screenshot_Diary.jpg" sizes="(max-width: 479px) 81vw, 49vw" srcset="images/65f1ed583b747368b9f5c035eeb4ff56_ADAP_Screenshot_Diary-p-500.jpg 500w, images/65f1ed583b747368b9f5c035eeb4ff56_ADAP_Screenshot_Diary-p-800.jpg 800w, images/ADAP_Screenshot_Diary.jpg 1280w" alt="In-game screenshot featuring explorer diary entries." class="grid-image"></a>
+                      <div class="grid-text-wrapper">
+                        <h3 class="grid-heading">Connect with your crew</h3>
+                        <p class="grid-paragraph">Keep your explorers alive, and learn about their unique personalities from their conversations and diary entries.</p>
+                      </div>
+                    </div>
+                    <div data-w-id="4e0bbb90-8969-37e3-0f3b-e0161eceaac5" style="opacity:0" class="grid-container">
+                      <a id="w-node-b072f821-a586-35c4-12a3-af4bab35b918-84d915b0" href="https://adaptorygame.com/assets/images/press/screenshots/screenshot_11.png" class="w-inline-block"><img src="images/ADAP_Screenshot_Temperature.jpg" sizes="(max-width: 479px) 100vw, 49vw" srcset="images/aa000362c5b3e2fb4654ca523e313a1f_ADAP_Screenshot_Temperature-p-500.jpg 500w, images/aa000362c5b3e2fb4654ca523e313a1f_ADAP_Screenshot_Temperature-p-800.jpg 800w, images/ADAP_Screenshot_Temperature.jpg 1280w" alt="In-game screenshot showcasing the world temperature overlay, with a sprawling base shown on screen. Every area of the base is coloured in a way that reflects its temperature." class="grid-image"></a>
+                      <div class="grid-text-wrapper">
+                        <h3 class="grid-heading">Master complex simulations</h3>
+                        <p class="grid-paragraph">Sophisticated physics and chemistry-based simulations with more than 50 elements, resulting in deep and emergent gameplay.</p>
+                      </div>
+                    </div>
+                    <div data-w-id="7390b19b-0d6d-2619-fae8-ce9eecdd7448" style="opacity:0" class="grid-container">
+                      <a id="w-node-dc8a44d9-cca5-9ba7-1673-319de8f982d5-84d915b0" href="https://adaptorygame.com/assets/images/press/screenshots/screenshot_05.png" class="w-inline-block"><img src="images/ADAP_Screenshot_Random_Events.jpg" sizes="(max-width: 479px) 81vw, 49vw" srcset="images/1e79d9406a0ad0b075c6bdcaa576402b_ADAP_Screenshot_Random_Events-p-500.jpg 500w, images/1e79d9406a0ad0b075c6bdcaa576402b_ADAP_Screenshot_Random_Events-p-800.jpg 800w, images/ADAP_Screenshot_Random_Events.jpg 1280w" alt="In-game screenshot showing a meteor shower." class="grid-image"></a>
+                      <div class="grid-text-wrapper">
+                        <h3 class="grid-heading">Adapt to the elements</h3>
+                        <p class="grid-paragraph">Look out for solar flares, eclipses, meteor showers, auroras, and more! Randomly generated world events are triggered as your crew digs deeper.</p>
+                      </div>
+                    </div>
+                    <div data-w-id="875a996d-db56-6f22-7c68-2bdcf77dd001" style="opacity:0" class="grid-container">
+                      <a id="w-node-_97190e05-6513-ecb6-7812-2239726e7a12-84d915b0" href="https://adaptorygame.com/assets/images/press/screenshots/screenshot_04.png" class="w-inline-block"><img src="images/ADAP_Screenshot_Worldgen.jpg" sizes="(max-width: 479px) 100vw, 49vw" srcset="images/cdba1757836c81258118fab721ce5dfe_ADAP_Screenshot_Worldgen-p-500.jpg 500w, images/cdba1757836c81258118fab721ce5dfe_ADAP_Screenshot_Worldgen-p-800.jpg 800w, images/ADAP_Screenshot_Worldgen.jpg 1280w" alt="In-game screenshot showing stalactites and stalagmites in procedurally-generated cave terrain." class="grid-image"></a>
+                      <div class="grid-text-wrapper">
+                        <h3 class="grid-heading">Every playthrough is different!</h3>
+                        <p class="grid-paragraph">Every world <em>and</em> explorer is procedurally generated, with numerous hidden spaces to discover.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="button-wrapper wide">
+                <a href="https://store.steampowered.com/app/2201620/Adaptory/" data-w-id="eb257b53-9e2c-5507-6d4f-58a34cd35f0a" style="opacity:0" target="_blank" class="button dark wide w-inline-block">
+                  <div>WISHLIST ON STEAM</div>
+                </a>
+                <a href="https://adaptorygame.com/discord" data-w-id="eb257b53-9e2c-5507-6d4f-58a34cd35f07" style="opacity:0" target="_blank" class="button dark wide w-inline-block">
+                  <div>JOIN US ON DISCORD</div>
+                </a>
+              </div>
+            </section>
+            <section class="section dark awardbg">
+              <div class="award-container">
+                <div data-w-id="9f9c9aa8-70a7-717c-6cef-0837ce0e2080" style="opacity:0" class="award-wrapper"><img src="images/Adaptory_Award_6.avif" loading="lazy" alt="Debut Festival 2025" class="award"></div>
+                <div data-w-id="548956d9-89fc-4421-872d-26a092cac741" style="opacity:0" class="award-wrapper"><img src="images/Adaptory_Award_1.avif" loading="lazy" alt="Debut Festival 2025" class="award"></div>
+                <div data-w-id="e85df123-6142-6987-1378-709a592179ce" style="opacity:0" class="award-wrapper"><img src="images/Adaptory_Award_3.avif" loading="lazy" alt="Tacticon 2024 official selection" class="award"></div>
+                <div data-w-id="f03596db-213b-c360-c977-83fa09ed3380" style="opacity:0" class="award-wrapper"><img src="images/Adaptory_Award_2.avif" loading="lazy" alt="The ANZ Indie Showcase Summer Edition 2024" class="award"></div>
+                <div data-w-id="0fc76ab2-ec38-f8fb-4bb0-3c7978d613b9" style="opacity:0" class="award-wrapper"><img src="images/Adaptory_Award_4.avif" loading="lazy" alt="Nominee for Colors of Indie 2023" class="award"></div>
+              </div>
+            </section>
 
-    <div class="gradient-blur-wrapper"></div>
-  </article>
-</div>
-
-{%- include footer.html -%}
+{%- include footer2.html -%}
